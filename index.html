@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta content="webkit" name="renderer">
+	<meta charset="UTF-8">
+	<title>中国原创音乐基地 5SING</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<script type="text/javascript" src="js/init.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="header" id="header">
+<!-- 		<div class="header-main clear"> -->
+<!-- 			<div class="logo lf"> -->
+<!-- 				<a href="index.html"> -->
+<!-- 					<img src="img/index/logo.png"> -->
+<!-- 				</a> -->
+<!-- 			</div> -->
+<!-- 			<div class="search lf">	 -->
+<!-- 				<input type="text" class="lf" placeholder="歌曲/歌单/会员"> -->
+<!-- 				<a href="#" class="rt"></a> -->
+<!-- 			</div> -->
+<!-- 			<ul class="login-list rt"> -->
+<!-- 				<li class="unLogin" id="login-btn" style="display: block;"> -->
+<!-- 					<a href="login.html">登录</a> -->
+<!-- 				</li> -->
+<!-- 				<li class="unLogin" id="reg-btn" style="display: block;"> -->
+<!-- 					<a href="reg.html">注册</a> -->
+<!-- 				</li> -->
+<!-- 				<li class="isLogin" id="avatar" style="display: none;"> -->
+<!-- 					<div class="clear"> -->
+<!-- 						<a href="javascript:;" class="lf"> -->
+<!-- 							<img id="userAvt" src="img/userAvt/dafaultAvt.jpg"> -->
+<!-- 							<span></span> -->
+<!-- 							<div class="userInfo"> -->
+<!-- 								<div class="sign"> -->
+<!-- 									<div class="item"> -->
+<!-- 										<div class="sign-box"> -->
+<!-- 											已签到<b>0</b>天 -->
+<!-- 											<b class="signBtn"></b> -->
+<!-- 										</div> -->
+<!-- 										<div class="coin-box"> -->
+<!-- 											<i></i> -->
+<!-- 											金豆<b class="coin">0</b>颗 -->
+<!-- 										</div> -->
+<!-- 									</div> -->
+<!-- 									<div class="item"></div> -->
+<!-- 								</div> -->
+<!-- 								<b id="logout" class="logoutBtn">退出登录</b> -->
+<!-- 								<i></i> -->
+<!-- 							</div> -->
+<!-- 						</a> -->
+<!-- 					</div> -->
+<!-- 				</li> -->
+<!-- 				<li class="isLogin" id="msg" style="display: none;">	 -->
+<!-- 					<a href="javascript:;"> -->
+<!-- 						<i></i> -->
+<!-- 						消息 -->
+<!-- 					</a> -->
+<!-- 				</li> -->
+<!-- 				<li> -->
+<!-- 					<a href="#"> -->
+<!-- 						<i class="upload-icon"></i> -->
+<!-- 						上传 -->
+<!-- 					</a> -->
+<!-- 				</li> -->
+<!-- 				<li> -->
+<!-- 					<a href="#"> -->
+<!-- 						<i class="phone-icon"></i> -->
+<!-- 						APP -->
+<!-- 					</a> -->
+<!-- 				</li> -->
+<!-- 			</ul> -->
+<!-- 		</div> -->
+	</div>
+	<div class="nav">
+		<div class="nav-main clear">
+			<ul class="lf">
+				<li class="active"><a href="index.html">首页</a></li>
+				<li><a href="original.html">原创</a></li>
+				<li><a href="cover.html">翻唱</a></li>
+				<li><a href="#">伴奏</a></li>
+				<li><a href="#">榜单</a></li>
+				<li><a href="#">歌单</a></li>
+			</ul>
+			<ul class="lf">
+				<li><a href="#">音乐人</a></li>
+				<li><a href="#">活动</a></li>
+				<li><a href="#">圈子</a></li>
+				<li><a href="#">音乐现场</a></li>
+				<li><a href="#">众筹</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner-container">
+		<div class="main-banner" id="main-banner">
+			<div class="banner-img clear" id="play-banner" style="left:-1000px">
+	<!--		<a href="#">
+					<img src="img/index/banner7.jpg">
+				</a>
+				<a href="#">
+					<img src="img/index/banner1.jpg">
+				</a>
+				<a href="#">
+					<img src="img/index/banner2.jpg">
+				</a>
+				<a href="#">
+					<img src="img/index/banner3.jpg">
+				</a>
+				<a href="#">
+					<img src="img/index/banner4.jpg">
+				</a>
+				<a href="#">
+					<img src="img/index/banner5.jpg">
+				</a>
+				<a href="#">
+					<img src="img/index/banner6.jpg">
+				</a>
+				<a href="#">
+					<img src="img/index/banner7.jpg">
+				</a>
+				<a href="#">
+					<img src="img/index/banner1.jpg">
+				</a>			-->
+			</div>
+			<ul class="banner-point clear" id="points">		<!--小圆点-->
+				<li class="act" ind="1"></li>
+				<li ind="2"></li>
+				<li ind="3"></li>
+				<li ind="4"></li>
+				<li ind="5"></li>
+				<li ind="6"></li>
+				<li ind="7"></li>
+			</ul>
+			<span class="prev" id="b_prev">
+				<a href="javascript:;"></a>
+			</span>
+			<span class="next" id="b_next">
+				<a href="javascript:;"></a>
+			</span>
+			</div>
+		</div>		<!-- 中部轮播图 -->
+	</div>
+	<div class="container clear">
+		<div class="type-recom clear">	<!-- middle primary section -->
+			<div class="recommend lf">		<!-- left -->
+				<div class="type clear">		<!-- 分类推荐 -->
+					<div class="title clear">
+						<span class="lf">分类推荐</span>
+						<p>
+							<a href="#" class="first_txt">编辑推荐</a> |
+							<a href="#">古风</a> |
+							<a href="#">流行</a> |
+							<a href="#">民谣</a> |
+							<a href="#">摇滚</a> |
+							<a href="#">动漫游戏</a> |
+							<a href="#">民族&美声</a>
+						</p>
+						<a href="#" class="rt">更多></a>
+						<i></i>
+					</div>
+					<div class="tabList lf" style="border-right: 1px solid rgb(229,229,229)" id="tabList-lf">
+						<p class="clear">
+							<span class="lt">
+								<i></i>
+								<b>原创推荐</b>
+							</span>
+							<a href="#" class="rt next-groud">
+								<i></i>
+								下一批
+							</a>
+							<a href="#" class="rt all-play">
+								<i></i>
+								全部播放
+							</a>
+						</p>
+						<ul>
+							<li class="hide">
+							<!--<span>青衣</span>
+								<b>樂旅小残</b>	-->
+							</li>
+							<div class="tab clear show">
+							<!--<div class="photoBor lf">
+									<img src="img/index/singer01.jpg">
+									古风
+								</div>
+								<div class="detail lf">
+									<p class="clear">
+										<a href="#" class="songName lf">青衣</a>
+										<a href="#" class="listen-icon rt"></a>
+									</p>
+									<a href="#">樂旅小残</a>
+									<div class="info">
+										朋友们，还在网上冲浪吗？我终于又有原创发惹
+										这歌真的拖了好久，我检讨！
+										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。
+										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来
+										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！
+										感恩凉凉的时尚指导汗悉心关怀！
+										也希望大家喜欢这歌！
+									</div>
+								</div>		-->
+							</div>
+							<li>
+							</li>
+							<div class="tab clear">
+		<!--					<div class="photoBor lf">
+									<img src="img/index/singer01.jpg">
+									古风
+								</div>
+								<div class="detail lf">
+									<p class="clear">
+										<a href="#" class="songName lf">青衣</a>
+										<a href="#" class="listen-icon rt"></a>
+									</p>
+									<a href="#">樂旅小残</a>
+									<div class="info">
+										朋友们，还在网上冲浪吗？我终于又有原创发惹
+										这歌真的拖了好久，我检讨！
+										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。
+										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来
+										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！
+										感恩凉凉的时尚指导汗悉心关怀！
+										也希望大家喜欢这歌！
+									</div>
+								</div>		-->
+							</div>
+							<li>
+			<!--					假脸
+								<b>樂旅小残</b>-->
+							</li>
+							<div class="tab clear">
+		<!--					<div class="photoBor lf">
+									<img src="img/index/singer01.jpg">
+									古风
+								</div>
+								<div class="detail lf">
+									<p class="clear">
+										<a href="#" class="songName lf">青衣</a>
+										<a href="#" class="listen-icon rt"></a>
+									</p>
+									<a href="#">樂旅小残</a>
+									<div class="info">
+										朋友们，还在网上冲浪吗？我终于又有原创发惹
+										这歌真的拖了好久，我检讨！
+										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。
+										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来
+										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！
+										感恩凉凉的时尚指导汗悉心关怀！
+										也希望大家喜欢这歌！
+									</div>
+								</div>-->
+							</div>
+							<li>
+			<!--				楚天舒(纯歌版)
+								<b>樂旅小残</b>-->
+							</li>
+							<div class="tab clear">
+			<!--				<div class="photoBor lf">
+									<img src="img/index/singer01.jpg">
+									古风
+								</div>
+								<div class="detail lf">
+									<p class="clear">
+										<a href="#" class="songName lf">青衣</a>
+										<a href="#" class="listen-icon rt"></a>
+									</p>
+									<a href="#">樂旅小残</a>
+									<div class="info">
+										朋友们，还在网上冲浪吗？我终于又有原创发惹
+										这歌真的拖了好久，我检讨！
+										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。
+										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来
+										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！
+										感恩凉凉的时尚指导汗悉心关怀！
+										也希望大家喜欢这歌！
+									</div>
+								</div>-->
+							</div>
+							<li>
+		<!--						一腔诗意喂了狗
+								<b>樂旅小残</b>	-->
+							</li>
+							<div class="tab clear">
+				<!--			<div class="photoBor lf">
+									<img src="img/index/singer01.jpg">
+									古风
+								</div>
+								<div class="detail lf">
+									<p class="clear">
+										<a href="#" class="songName lf">青衣</a>
+										<a href="#" class="listen-icon rt"></a>
+									</p>
+									<a href="#">樂旅小残</a>
+									<div class="info">
+										朋友们，还在网上冲浪吗？我终于又有原创发惹
+										这歌真的拖了好久，我检讨！
+										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。
+										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来
+										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！
+										感恩凉凉的时尚指导汗悉心关怀！
+										也希望大家喜欢这歌！
+									</div>
+								</div>-->
+							</div>
+							<li>
+		<!--					我想要说
+								<b>樂旅小残</b>-->
+							</li>
+							<div class="tab clear">
+			<!--				<div class="photoBor lf">
+									<img src="img/index/singer01.jpg">
+									古风
+								</div>
+								<div class="detail lf">
+									<p class="clear">
+										<a href="#" class="songName lf">青衣</a>
+										<a href="#" class="listen-icon rt"></a>
+									</p>
+									<a href="#">樂旅小残</a>
+									<div class="info">
+										朋友们，还在网上冲浪吗？我终于又有原创发惹
+										这歌真的拖了好久，我检讨！
+										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。
+										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来
+										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！
+										感恩凉凉的时尚指导汗悉心关怀！
+										也希望大家喜欢这歌！
+									</div>
+								</div>-->
+							</div>
+							<li>
+		<!--						【异世谣】皎然记
+								<b>樂旅小残</b>	-->
+							</li>
+							<div class="tab clear">
+			<!--				<div class="photoBor lf">
+									<img src="img/index/singer01.jpg">
+									古风
+								</div>
+								<div class="detail lf">
+									<p class="clear">
+										<a href="#" class="songName lf">青衣</a>
+										<a href="#" class="listen-icon rt"></a>
+									</p>
+									<a href="#">樂旅小残</a>
+									<div class="info">
+										朋友们，还在网上冲浪吗？我终于又有原创发惹
+										这歌真的拖了好久，我检讨！
+										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。
+										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来
+										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！
+										感恩凉凉的时尚指导汗悉心关怀！
+										也希望大家喜欢这歌！
+									</div>
+								</div>	-->
+							</div>
+							<li>
+			<!--				偷偷偷偷
+								<b>樂旅小残</b>-->
+							</li>
+							<div class="tab clear">
+			<!--				<div class="photoBor lf">
+									<img src="img/index/singer01.jpg">
+									古风
+								</div>
+								<div class="detail lf">
+									<p class="clear">
+										<a href="#" class="songName lf">青衣</a>
+										<a href="#" class="listen-icon rt"></a>
+									</p>
+									<a href="#">樂旅小残</a>
+									<div class="info">
+										朋友们，还在网上冲浪吗？我终于又有原创发惹
+										这歌真的拖了好久，我检讨！
+										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。
+										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来
+										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！
+										感恩凉凉的时尚指导汗悉心关怀！
+										也希望大家喜欢这歌！
+									</div>
+								</div>-->
+							</div>
+							<li>
+		<!--					如果生命 电影怨灵2主题曲
+								<b>樂旅小残</b>	-->
+							</li>
+							<div class="tab clear">
+			<!--				<div class="photoBor lf">
+									<img src="img/index/singer01.jpg">
+									古风
+								</div>
+								<div class="detail lf">
+									<p class="clear">
+										<a href="#" class="songName lf">青衣</a>
+										<a href="#" class="listen-icon rt"></a>
+									</p>
+									<a href="#">樂旅小残</a>
+									<div class="info">
+										朋友们，还在网上冲浪吗？我终于又有原创发惹
+										这歌真的拖了好久，我检讨！
+										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。
+										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来
+										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！
+										感恩凉凉的时尚指导汗悉心关怀！
+										也希望大家喜欢这歌！
+									</div>
+								</div>-->
+							</div>
+							<li>
+		<!--					娱琴小记
+								<b>樂旅小残</b>-->
+							</li>
+							<div class="tab clear">
+			<!--				<div class="photoBor lf">
+									<img src="img/index/singer01.jpg">
+									古风
+								</div>
+								<div class="detail lf">
+									<p class="clear">
+										<a href="#" class="songName lf">青衣</a>
+										<a href="#" class="listen-icon rt"></a>
+									</p>
+									<a href="#">樂旅小残</a>
+									<div class="info">
+										朋友们，还在网上冲浪吗？我终于又有原创发惹
+										这歌真的拖了好久，我检讨！
+										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。
+										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来
+										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！
+										感恩凉凉的时尚指导汗悉心关怀！
+										也希望大家喜欢这歌！
+									</div>
+								</div>-->
+							</div>
+						</ul>
+					</div>
+					<div class="tabList rt" style="padding-right: 14px" id="tabList-rt">
+						<p class="clear">
+							<span class="lt">
+								<i class="micPhone"></i>
+								<b>翻唱推荐</b>
+							</span>
+							<a href="#" class="rt next-groud">
+								<i></i>
+								下一批
+							</a>
+							<a href="#" class="rt all-play">
+								<i></i>
+								全部播放
+							</a>
+						</p>
+						<ul>
+							<li class="hide">
+<!-- 								青衣 -->
+<!-- 								<b>樂旅小残</b> -->
+							</li>
+							<div class="tab clear show">
+<!-- 								<div class="photoBor lf"> -->
+<!-- 									<img src="img/index/singer01.jpg"> -->
+<!-- 									古风 -->
+<!-- 								</div> -->
+<!-- 								<div class="detail lf"> -->
+<!-- 									<p class="clear"> -->
+<!-- 										<a href="#" class="songName lf">青衣</a> -->
+<!-- 										<a href="#" class="listen-icon rt"></a> -->
+<!-- 									</p> -->
+<!-- 									<a href="#">樂旅小残</a> -->
+<!-- 									<div class="info"> -->
+<!-- 										朋友们，还在网上冲浪吗？我终于又有原创发惹 -->
+<!-- 										这歌真的拖了好久，我检讨！ -->
+<!-- 										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。 -->
+<!-- 										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来 -->
+<!-- 										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！ -->
+<!-- 										感恩凉凉的时尚指导汗悉心关怀！ -->
+<!-- 										也希望大家喜欢这歌！ -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+							</div>
+							<li>
+<!-- 								一个都不能少(吕继宏) -->
+<!-- 								<b>樂旅小残</b> -->
+							</li>
+							<div class="tab clear">
+<!-- 								<div class="photoBor lf"> -->
+<!-- 									<img src="img/index/singer01.jpg"> -->
+<!-- 									古风 -->
+<!-- 								</div> -->
+<!-- 								<div class="detail lf"> -->
+<!-- 									<p class="clear"> -->
+<!-- 										<a href="#" class="songName lf">青衣</a> -->
+<!-- 										<a href="#" class="listen-icon rt"></a> -->
+<!-- 									</p> -->
+<!-- 									<a href="#">樂旅小残</a> -->
+<!-- 									<div class="info"> -->
+<!-- 										朋友们，还在网上冲浪吗？我终于又有原创发惹 -->
+<!-- 										这歌真的拖了好久，我检讨！ -->
+<!-- 										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。 -->
+<!-- 										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来 -->
+<!-- 										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！ -->
+<!-- 										感恩凉凉的时尚指导汗悉心关怀！ -->
+<!-- 										也希望大家喜欢这歌！ -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+							</div>
+							<li>
+<!-- 								假脸 -->
+<!-- 								<b>樂旅小残</b> -->
+							</li>
+							<div class="tab clear">
+<!-- 								<div class="photoBor lf"> -->
+<!-- 									<img src="img/index/singer01.jpg"> -->
+<!-- 									古风 -->
+<!-- 								</div> -->
+<!-- 								<div class="detail lf"> -->
+<!-- 									<p class="clear"> -->
+<!-- 										<a href="#" class="songName lf">青衣</a> -->
+<!-- 										<a href="#" class="listen-icon rt"></a> -->
+<!-- 									</p> -->
+<!-- 									<a href="#">樂旅小残</a> -->
+<!-- 									<div class="info"> -->
+<!-- 										朋友们，还在网上冲浪吗？我终于又有原创发惹 -->
+<!-- 										这歌真的拖了好久，我检讨！ -->
+<!-- 										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。 -->
+<!-- 										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来 -->
+<!-- 										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！ -->
+<!-- 										感恩凉凉的时尚指导汗悉心关怀！ -->
+<!-- 										也希望大家喜欢这歌！ -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+							</div>
+							<li>
+<!-- 								楚天舒(纯歌版) -->
+<!-- 								<b>樂旅小残</b> -->
+							</li>
+							<div class="tab clear">
+<!-- 								<div class="photoBor lf"> -->
+<!-- 									<img src="img/index/singer01.jpg"> -->
+<!-- 									古风 -->
+<!-- 								</div> -->
+<!-- 								<div class="detail lf"> -->
+<!-- 									<p class="clear"> -->
+<!-- 										<a href="#" class="songName lf">青衣</a> -->
+<!-- 										<a href="#" class="listen-icon rt"></a> -->
+<!-- 									</p> -->
+<!-- 									<a href="#">樂旅小残</a> -->
+<!-- 									<div class="info"> -->
+<!-- 										朋友们，还在网上冲浪吗？我终于又有原创发惹 -->
+<!-- 										这歌真的拖了好久，我检讨！ -->
+<!-- 										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。 -->
+<!-- 										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来 -->
+<!-- 										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！ -->
+<!-- 										感恩凉凉的时尚指导汗悉心关怀！ -->
+<!-- 										也希望大家喜欢这歌！ -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+							</div>
+							<li>
+<!-- 								一腔诗意喂了狗 -->
+<!-- 								<b>樂旅小残</b> -->
+							</li>
+							<div class="tab clear">
+<!-- 								<div class="photoBor lf"> -->
+<!-- 									<img src="img/index/singer01.jpg"> -->
+<!-- 									古风 -->
+<!-- 								</div> -->
+<!-- 								<div class="detail lf"> -->
+<!-- 									<p class="clear"> -->
+<!-- 										<a href="#" class="songName lf">青衣</a> -->
+<!-- 										<a href="#" class="listen-icon rt"></a> -->
+<!-- 									</p> -->
+<!-- 									<a href="#">樂旅小残</a> -->
+<!-- 									<div class="info"> -->
+<!-- 										朋友们，还在网上冲浪吗？我终于又有原创发惹 -->
+<!-- 										这歌真的拖了好久，我检讨！ -->
+<!-- 										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。 -->
+<!-- 										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来 -->
+<!-- 										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！ -->
+<!-- 										感恩凉凉的时尚指导汗悉心关怀！ -->
+<!-- 										也希望大家喜欢这歌！ -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+							</div>
+							<li>
+<!-- 								我想要说 -->
+<!-- 								<b>樂旅小残</b> -->
+							</li>
+							<div class="tab clear">
+<!-- 								<div class="photoBor lf"> -->
+<!-- 									<img src="img/index/singer01.jpg"> -->
+<!-- 									古风 -->
+<!-- 								</div> -->
+<!-- 								<div class="detail lf"> -->
+<!-- 									<p class="clear"> -->
+<!-- 										<a href="#" class="songName lf">青衣</a> -->
+<!-- 										<a href="#" class="listen-icon rt"></a> -->
+<!-- 									</p> -->
+<!-- 									<a href="#">樂旅小残</a> -->
+<!-- 									<div class="info"> -->
+<!-- 										朋友们，还在网上冲浪吗？我终于又有原创发惹 -->
+<!-- 										这歌真的拖了好久，我检讨！ -->
+<!-- 										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。 -->
+<!-- 										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来 -->
+<!-- 										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！ -->
+<!-- 										感恩凉凉的时尚指导汗悉心关怀！ -->
+<!-- 										也希望大家喜欢这歌！ -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+							</div>
+							<li>
+<!-- 								【异世谣】皎然记 -->
+<!-- 								<b>樂旅小残</b> -->
+							</li>
+							<div class="tab clear">
+<!-- 								<div class="photoBor lf"> -->
+<!-- 									<img src="img/index/singer01.jpg"> -->
+<!-- 									古风 -->
+<!-- 								</div> -->
+<!-- 								<div class="detail lf"> -->
+<!-- 									<p class="clear"> -->
+<!-- 										<a href="#" class="songName lf">青衣</a> -->
+<!-- 										<a href="#" class="listen-icon rt"></a> -->
+<!-- 									</p> -->
+<!-- 									<a href="#">樂旅小残</a> -->
+<!-- 									<div class="info"> -->
+<!-- 										朋友们，还在网上冲浪吗？我终于又有原创发惹 -->
+<!-- 										这歌真的拖了好久，我检讨！ -->
+<!-- 										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。 -->
+<!-- 										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来 -->
+<!-- 										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！ -->
+<!-- 										感恩凉凉的时尚指导汗悉心关怀！ -->
+<!-- 										也希望大家喜欢这歌！ -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+							</div>
+							<li>
+<!-- 								偷偷偷偷 -->
+<!-- 								<b>樂旅小残</b> -->
+							</li>
+							<div class="tab clear">
+<!-- 								<div class="photoBor lf"> -->
+<!-- 									<img src="img/index/singer01.jpg"> -->
+<!-- 									古风 -->
+<!-- 								</div> -->
+<!-- 								<div class="detail lf"> -->
+<!-- 									<p class="clear"> -->
+<!-- 										<a href="#" class="songName lf">青衣</a> -->
+<!-- 										<a href="#" class="listen-icon rt"></a> -->
+<!-- 									</p> -->
+<!-- 									<a href="#">樂旅小残</a> -->
+<!-- 									<div class="info"> -->
+<!-- 										朋友们，还在网上冲浪吗？我终于又有原创发惹 -->
+<!-- 										这歌真的拖了好久，我检讨！ -->
+<!-- 										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。 -->
+<!-- 										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来 -->
+<!-- 										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！ -->
+<!-- 										感恩凉凉的时尚指导汗悉心关怀！ -->
+<!-- 										也希望大家喜欢这歌！ -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+							</div>
+							<li>
+<!-- 								如果生命 电影怨灵2主题曲 -->
+<!-- 								<b>樂旅小残</b> -->
+							</li>
+							<div class="tab clear">
+<!-- 								<div class="photoBor lf"> -->
+<!-- 									<img src="img/index/singer01.jpg"> -->
+<!-- 									古风 -->
+<!-- 								</div> -->
+<!-- 								<div class="detail lf"> -->
+<!-- 									<p class="clear"> -->
+<!-- 										<a href="#" class="songName lf">青衣</a> -->
+<!-- 										<a href="#" class="listen-icon rt"></a> -->
+<!-- 									</p> -->
+<!-- 									<a href="#">樂旅小残</a> -->
+<!-- 									<div class="info"> -->
+<!-- 										朋友们，还在网上冲浪吗？我终于又有原创发惹 -->
+<!-- 										这歌真的拖了好久，我检讨！ -->
+<!-- 										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。 -->
+<!-- 										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来 -->
+<!-- 										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！ -->
+<!-- 										感恩凉凉的时尚指导汗悉心关怀！ -->
+<!-- 										也希望大家喜欢这歌！ -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+							</div>
+							<li>
+<!-- 								娱琴小记 -->
+<!-- 								<b>樂旅小残</b> -->
+							</li>
+							<div class="tab clear">
+<!-- 								<div class="photoBor lf"> -->
+<!-- 									<img src="img/index/singer01.jpg"> -->
+<!-- 									古风 -->
+<!-- 								</div> -->
+<!-- 								<div class="detail lf"> -->
+<!-- 									<p class="clear"> -->
+<!-- 										<a href="#" class="songName lf">青衣</a> -->
+<!-- 										<a href="#" class="listen-icon rt"></a> -->
+<!-- 									</p> -->
+<!-- 									<a href="#">樂旅小残</a> -->
+<!-- 									<div class="info"> -->
+<!-- 										朋友们，还在网上冲浪吗？我终于又有原创发惹 -->
+<!-- 										这歌真的拖了好久，我检讨！ -->
+<!-- 										起初最早还和凉凉讨论过副歌要不要用戏腔唱的问题，试过一次之后，就整个放弃（。 -->
+<!-- 										后来唱得妩媚了一点，凉凉也建议说，不需要刻意唱得妩媚，该怎样来就怎样来 -->
+<!-- 										最终出来的效果就是这样了！非常喜欢！偷偷循环了很多遍！ -->
+<!-- 										感恩凉凉的时尚指导汗悉心关怀！ -->
+<!-- 										也希望大家喜欢这歌！ -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+							</div>
+						</ul>
+					</div>
+				</div>
+				<div class="songListRec">
+					<div class="title clear">
+						<span class="lf">歌单</span>
+						<p style="margin-left: 15px">
+							 |
+							<a href="#">专辑</a>
+						</p>
+						<a href="#" class="rt">更多></a>
+					</div>
+					<div class="special clear">
+						<div class="item">
+							<a href="#">
+								<img src="img/index/special1.jpg">
+							</a>
+							<span>
+								<i></i>
+								247201
+							</span>
+							<a href="#" class="specialTit">
+								9月原创古风精选 25首
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/index/special2.jpg">
+							</a>
+							<span>
+								<i></i>
+								247201
+							</span>
+							<a href="#" class="specialTit">
+								9月原创古风精选 25首
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/index/special3.jpg">
+							</a>
+							<span>
+								<i></i>
+								247201
+							</span>
+							<a href="#" class="specialTit">
+								9月原创古风精选 25首
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/index/special4.jpg">
+							</a>
+							<span>
+								<i></i>
+								247201
+							</span>
+							<a href="#" class="specialTit">
+								9月原创古风精选 25首
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/index/special5.jpg">
+							</a>
+							<span>
+								<i></i>
+								247201
+							</span>
+							<a href="#" class="specialTit">
+								9月原创古风精选 25首
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/index/special6.png">
+							</a>
+							<span>
+								<i></i>
+								247201
+							</span>
+							<a href="#" class="specialTit">
+								9月原创古风精选 25首
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/index/special7.jpg">
+							</a>
+							<span>
+								<i></i>
+								247201
+							</span>
+							<a href="#" class="specialTit">
+								9月原创古风精选 25首
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/index/special8.jpg">
+							</a>
+							<span>
+								<i></i>
+								247201
+							</span>
+							<a href="#" class="specialTit">
+								9月原创古风精选 25首
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/index/special9.jpg">
+							</a>
+							<span>
+								<i></i>
+								247201
+							</span>
+							<a href="#" class="specialTit">
+								9月原创古风精选 25首
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/index/special10.jpg">
+							</a>
+							<span>
+								<i></i>
+								247201
+							</span>
+							<a href="#" class="specialTit">
+								9月原创古风精选 25首
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="song-list rt">		<!-- right -->
+				<div class="rightBanner">
+					<img src="img/index/rightBan.jpg">
+				</div>
+				<div class="infoRec">
+					<p>
+						推荐资讯
+						<span class="btns">
+							<a href="#" class="prev"></a>
+							<a href="#" class="next"></a>
+						</span>
+					</p>
+					<ul id="recodeMsg">
+						<!-- <li>
+							<i></i>
+							<a href="#">【歌单】麻麻，这些男声为什么这么好听！？</a>
+						</li>
+						<li>
+							<i></i>
+							<a href="#">【歌单】麻麻，这些男声为什么这么好听！？</a>
+						</li>
+						<li>
+							<i></i>
+							<a href="#">【歌单】麻麻，这些男声为什么这么好听！？</a>
+						</li>
+						<li>
+							<i></i>
+							<a href="#">【歌单】麻麻，这些男声为什么这么好听！？</a>
+						</li>
+						<li>
+							<i></i>
+							<a href="#">【歌单】麻麻，这些男声为什么这么好听！？</a>
+						</li> -->
+					</ul>
+				</div>
+				<div class="rank">
+					<div class="tabTitle clear">
+						<a href="javascript:;" class="active">原创排行榜</a>
+						<a href="javascript:;">翻唱排行榜</a>
+						<a href="javascript:;">支持榜</a>
+					</div>
+					<p class="control">
+						<a href="#" class="next-groud rt">
+							<i></i>
+							下一批
+						</a>
+						<a href="#" class="all-play rt">
+							<i></i>
+							全部播放
+						</a>
+					</p>
+					<ul class="rank-top clear" id="oriRank">
+<!-- 						<li> -->
+<!-- 							<a href="#" class="title"> -->
+<!-- 								<b class="fir">1</b> -->
+<!-- 								寄我此生 -->
+<!-- 							</a> -->
+<!-- 							<a href="#" class="singer"> -->
+<!-- 								慕寒 -->
+<!-- 							</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="#" class="title"> -->
+<!-- 								<b class="sec">2</b> -->
+<!-- 								寄我此生 -->
+<!-- 							</a> -->
+<!-- 							<a href="#" class="singer"> -->
+<!-- 								慕寒 -->
+<!-- 							</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="#" class="title"> -->
+<!-- 								<b class="thi">3</b> -->
+<!-- 								寄我此生 -->
+<!-- 							</a> -->
+<!-- 							<a href="#" class="singer"> -->
+<!-- 								慕寒 -->
+<!-- 							</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="#" class="title"> -->
+<!-- 								<b>4</b> -->
+<!-- 								寄我此生 -->
+<!-- 							</a> -->
+<!-- 							<a href="#" class="singer"> -->
+<!-- 								慕寒 -->
+<!-- 							</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="#" class="title"> -->
+<!-- 								<b>5</b> -->
+<!-- 								寄我此生 -->
+<!-- 							</a> -->
+<!-- 							<a href="#" class="singer"> -->
+<!-- 								慕寒 -->
+<!-- 							</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="#" class="title"> -->
+<!-- 								<b>6</b> -->
+<!-- 								寄我此生 -->
+<!-- 							</a> -->
+<!-- 							<a href="#" class="singer"> -->
+<!-- 								慕寒 -->
+<!-- 							</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="#" class="title"> -->
+<!-- 								<b>7</b> -->
+<!-- 								寄我此生 -->
+<!-- 							</a> -->
+<!-- 							<a href="#" class="singer"> -->
+<!-- 								慕寒 -->
+<!-- 							</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="#" class="title"> -->
+<!-- 								<b>8</b> -->
+<!-- 								寄我此生 -->
+<!-- 							</a> -->
+<!-- 							<a href="#" class="singer"> -->
+<!-- 								慕寒 -->
+<!-- 							</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="#" class="title"> -->
+<!-- 								<b>9</b> -->
+<!-- 								寄我此生 -->
+<!-- 							</a> -->
+<!-- 							<a href="#" class="singer"> -->
+<!-- 								慕寒 -->
+<!-- 							</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="#" class="title"> -->
+<!-- 								<b>10</b> -->
+<!-- 								寄我此生 -->
+<!-- 							</a> -->
+<!-- 							<a href="#" class="singer"> -->
+<!-- 								慕寒 -->
+<!-- 							</a> -->
+<!-- 						</li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="music-site">	 音乐现场 
+			<div class="title clear">
+				<span class="lf">音乐现场</span>
+				<a href="#" class="rt">更多></a>
+			</div>
+			<ul class="locale clear">
+				<li class="item">
+					<a href="#">
+						<img src="img/index/site.jpg">
+						<div></div>
+					</a>
+					<span class="hot"></span>
+					<div class="info">
+						<a href="#">琥珀珀珀珀丶</a>
+						<p>
+							<i></i>
+							<span>676</span>个观众
+						</p>
+						<p>男粉丝很多的胡婆婆</p>
+					</div>
+				</li>
+				<li class="item">
+					<a href="#">
+						<img src="img/index/site.jpg">
+						<div></div>
+					</a>
+					<span class="hot"></span>
+					<div class="info">
+						<a href="#">琥珀珀珀珀丶</a>
+						<p>
+							<i></i>
+							<span>676</span>个观众
+						</p>
+						<p>男粉丝很多的胡婆婆</p>
+					</div>
+				</li>
+				<li class="item">
+					<a href="#">
+						<img src="img/index/site.jpg">
+						<div></div>
+					</a>
+					<span class="hot"></span>
+					<div class="info">
+						<a href="#">琥珀珀珀珀丶</a>
+						<p>
+							<i></i>
+							<span>676</span>个观众
+						</p>
+						<p>男粉丝很多的胡婆婆</p>
+					</div>
+				</li>
+				<li class="item">
+					<a href="#">
+						<img src="img/index/site.jpg">
+						<div></div>
+					</a>
+					<span class="hot"></span>
+					<div class="info">
+						<a href="#">琥珀珀珀珀丶</a>
+						<p>
+							<i></i>
+							<span>676</span>个观众
+						</p>
+						<p class="author">男粉丝很多的胡婆婆</p>
+					</div>
+				</li>
+			</ul>
+		</div> -->
+		<div class="hotSinger clear">
+			<div class="title clear">
+				<span class="lf">热门音乐人</span>
+				<a href="#" class="rt">更多></a>
+			</div>
+			<div class="singerTop lf" id="topOne">
+				<!-- <a href="#" class="title">Sugar IS</a>
+				<a href="#">
+					<img src="img/index/first.jpg">
+				</a>
+				<p>
+					音乐达人
+				</p> -->
+			</div>
+			<div class="singerRank rt clear" id="singerRank">
+				<!-- <div class="item">
+					<div class="head_pic">
+						<a href="#">
+							<img src="img/index/singer_120_120.jpg">
+						</a>
+						<div class="info">
+							<a href="#" class="head"></a>
+							<p class="s_name">
+								<a href="#">歌手</a>
+							</p>
+							<p>听众/歌手</p>
+							<p class="intr">个性签名</p>
+							<div class="hotSong lf">
+								<h4>热门歌曲</h4>
+								<ul class="list">
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<p>樂旅小残</p>
+				</div>
+				<div class="item">
+					<div class="head_pic">
+						<a href="#">
+							<img src="img/index/singer_120_120.jpg">
+						</a>
+						<div class="info">
+							<a href="#" class="head"></a>
+							<p class="s_name">
+								<a href="#">歌手</a>
+							</p>
+							<p>听众/歌手</p>
+							<p class="intr">个性签名</p>
+							<div class="hotSong lf">
+								<h4>热门歌曲</h4>
+								<ul class="list">
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<p>樂旅小残</p>
+				</div>
+				<div class="item">
+					<div class="head_pic">
+						<a href="#">
+							<img src="img/index/singer_120_120.jpg">
+						</a>
+						<div class="info">
+							<a href="#" class="head"></a>
+							<p class="s_name">
+								<a href="#">歌手</a>
+							</p>
+							<p>听众/歌手</p>
+							<p class="intr">个性签名</p>
+							<div class="hotSong lf">
+								<h4>热门歌曲</h4>
+								<ul class="list">
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<p>樂旅小残</p>
+				</div>
+				<div class="item">
+					<div class="head_pic">
+						<a href="#">
+							<img src="img/index/singer_120_120.jpg">
+						</a>
+						<div class="info">
+							<a href="#" class="head"></a>
+							<p class="s_name">
+								<a href="#">歌手</a>
+							</p>
+							<p>听众/歌手</p>
+							<p class="intr">个性签名</p>
+							<div class="hotSong lf">
+								<h4>热门歌曲</h4>
+								<ul class="list">
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<p>樂旅小残</p>
+				</div>
+				<div class="item">
+					<div class="head_pic">
+						<a href="#">
+							<img src="img/index/singer_120_120.jpg">
+						</a>
+						<div class="info">
+							<a href="#" class="head"></a>
+							<p class="s_name">
+								<a href="#">歌手</a>
+							</p>
+							<p>听众/歌手</p>
+							<p class="intr">个性签名</p>
+							<div class="hotSong lf">
+								<h4>热门歌曲</h4>
+								<ul class="list">
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<p>樂旅小残</p>
+				</div>
+				<div class="item">
+					<div class="head_pic">
+						<a href="#">
+							<img src="img/index/singer_120_120.jpg">
+						</a>
+						<div class="info">
+							<a href="#" class="head"></a>
+							<p class="s_name">
+								<a href="#">歌手</a>
+							</p>
+							<p>听众/歌手</p>
+							<p class="intr">个性签名</p>
+							<div class="hotSong lf">
+								<h4>热门歌曲</h4>
+								<ul class="list">
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<p>樂旅小残</p>
+				</div>
+				<div class="item">
+					<div class="head_pic">
+						<a href="#">
+							<img src="img/index/singer_120_120.jpg">
+						</a>
+						<div class="info">
+							<a href="#" class="head"></a>
+							<p class="s_name">
+								<a href="#">歌手</a>
+							</p>
+							<p>听众/歌手</p>
+							<p class="intr">个性签名</p>
+							<div class="hotSong lf">
+								<h4>热门歌曲</h4>
+								<ul class="list">
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<p>樂旅小残</p>
+				</div>
+				<div class="item">
+					<div class="head_pic">
+						<a href="#">
+							<img src="img/index/singer_120_120.jpg">
+						</a>
+						<div class="info">
+							<a href="#" class="head"></a>
+							<p class="s_name">
+								<a href="#">歌手</a>
+							</p>
+							<p>听众/歌手</p>
+							<p class="intr">个性签名</p>
+							<div class="hotSong lf">
+								<h4>热门歌曲</h4>
+								<ul class="list">
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<p>樂旅小残</p>
+				</div>
+				<div class="item">
+					<div class="head_pic">
+						<a href="#">
+							<img src="img/index/singer_120_120.jpg">
+						</a>
+						<div class="info">
+							<a href="#" class="head"></a>
+							<p class="s_name">
+								<a href="#">歌手</a>
+							</p>
+							<p>听众/歌手</p>
+							<p class="intr">个性签名</p>
+							<div class="hotSong lf">
+								<h4>热门歌曲</h4>
+								<ul class="list">
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<p>樂旅小残</p>
+				</div>
+				<div class="item">
+					<div class="head_pic">
+						<a href="#">
+							<img src="img/index/singer_120_120.jpg">
+						</a>
+						<div class="info">
+							<a href="#" class="head"></a>
+							<p class="s_name">
+								<a href="#">歌手</a>
+							</p>
+							<p>听众/歌手</p>
+							<p class="intr">个性签名</p>
+							<div class="hotSong lf">
+								<h4>热门歌曲</h4>
+								<ul class="list">
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+									<li>
+										<span>
+											<a href="#">歌曲标题</a>
+										</span>
+										<i></i>		
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<p>樂旅小残</p>
+				</div> -->
+			</div>
+		</div>		<!--主体内容-->
+	</div>
+	<div class="footer">
+		<div class="footer-contact">
+			<div class="conta">
+				<div class="teamMate lf">	<!-- 合作伙伴 -->
+					<p>
+						<a href="index.html" class="lf"></a>
+						<span>合作伙伴</span>
+					</p>
+					<div class="clear">
+						<a href="#" class="mc1"></a>
+						<a href="#" class="mc2"></a>
+						<a href="#" class="mc3"></a>
+						<a href="#" class="mc4"></a>
+					</div>
+				</div>
+				<div class="topic lf">			<!-- 话题 -->
+					<p>实用话题</p>
+					<ul>
+						<li>
+							<a href="#">1、网站违规广告细则说明</a>
+						</li>
+						<li>
+							<a href="#">2、申请网站歌单推荐</a>
+						</li>
+						<li>
+							<a href="#">3、5sing客户端下载</a>
+						</li>
+						<li>
+							<a href="#">4、申请网站推荐歌曲</a>
+						</li>
+						<li>
+							<a href="#">5、5sing用户服务协议</a>
+						</li>
+					</ul>
+				</div>
+				<div class="app lf">
+					<p>5sing手机端</p>
+					<div class="download lf">
+						<a href="#">5sing安卓端下载</a>
+						<a href="#">5singIOS端下载</a>
+					</div>
+					<div class="addCall lf">
+						<a href="#" class="sina">
+							<i></i>
+							加关注
+						</a>
+						<a href="#" class="wechat">
+							<i></i>
+							加微信
+						</a>
+					</div>		<!-- 手机端 -->
+				</div>
+			</div>
+		</div>
+		<div class="footer-info" id="footer">
+	<!--		<div class="info">
+				<p class="info-nav">
+					<a href="#">5sing用户服务协议</a>
+					<a href="#">版权指引</a>
+					<a href="#">授权协议</a>
+					<a href="#">隐私政策</a>
+					<a href="#">关于我们</a>
+					<a href="#">商务合作</a>
+					<a href="#">诚聘英才</a>
+					<a href="#">联系我们</a>
+					<a href="#">帮助中心</a>
+				</p>
+				<p class="cpr">
+					<a href="#">粤ICP备09017694号-2</a>
+						信息网络传播视听节目许可证：1910564号　 增值电信业务经营许可证：粤B2-20060339号　 营业性演出许可证：穗天演440106120029
+					<i></i>
+				</p>
+				<p class="cpr">
+					Copyright © 2004-2017 KuGou.All Rights Reserved　
+					违法和不良信息举报：www.12377.cn 举报电话：12377　
+					粤公网安备 44010602000141号
+					<a href="#" class="net">12318 全国文化市场举报网站</a>
+				</p>
+			</div>
+		</div>				 footer -->
+	</div>
+	<div class="aside">
+		<a href="javascript:;" class="code"></a>
+		<a href="javascript:;" class="reCall"></a>
+		<a href="javascript:;" class="toTop" id="toTop" style="height: 0"></a>
+	</div>
+	<!-- 小广告 -->
+	<div class="shit" id="shit">
+		<span>X</span>
+	</div>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/footer.js"></script>
+</body>
+</html>

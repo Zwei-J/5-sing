@@ -1,0 +1,357 @@
+div.header{
+	width: 100%;
+	min-width:1000px;
+	max-height: 60px;
+	background: url(../img/index/headBg.jpg) repeat-x;
+}
+
+div.header a,div.nav a{
+	color: #FFF;
+}
+
+div.header a:hover,div.nav a:hover{
+	color: #66CC00;
+}
+
+.header div.header-main{
+	width: 1000px;
+	margin: 0 auto;
+/*	height: 60px;
+	overflow: hidden;*/
+}
+
+.header-main div.logo{
+	padding: 10px 0;
+}
+
+.header-main div.search{
+	width: 262px;
+    height: 32px;
+    background: url(../img/index/head_sprite.png) no-repeat 0 0;
+    margin: 12px 0 0 58px;
+}
+
+.header-main div.search>input{
+		width: 220px;
+    height: 28px;
+    margin-top: 1px;
+    border: 0;
+    text-indent: 20px;
+    background: transparent;
+    color: #999;
+    line-height: 28px;
+}
+
+.header-main div.search>a{
+	width: 40px;
+	height: 32px;
+}
+
+.header-main ul.login-list{
+	padding: 20px 0;
+	margin-right: 5px;
+}
+
+.header-main ul.login-list li{
+	float: left;
+	margin: 0 12px;
+}
+
+.header-main ul.login-list i{
+	background-image: url(../img/index/head_sprite.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 7px;
+	position: relative;
+}
+
+.header-main ul.login-list li .upload-icon{
+	width: 16px;
+	height: 14px;
+	background-position: -33px -36px;
+	position: relative;
+	top: 1px;
+}
+
+.header-main ul.login-list li .phone-icon{
+	width: 9px;
+	height: 16px;
+	background-position: 0 -36px;
+	position: relative;
+	top: 2px;
+}
+
+div.nav{
+	width: 100%;
+	min-width:1000px;
+	background-color: #222322;
+	box-shadow: 0 0 0 1px rgb(51,51,51) inset;
+}
+
+.nav div.nav-main{
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 14px;
+/*	height: 38px;
+	overflow: hidden;*/
+}
+
+.nav div.nav-main>ul{
+	line-height: 38px;
+}
+
+.nav div.nav-main>ul>li{	
+	float: left;
+	box-sizing: border-box;
+	border-bottom: 4px solid #222322;
+	margin-left: 10px;
+	padding: 0 15px;
+}
+
+.nav div.nav-main>ul>li.active{
+	border-bottom: 4px solid #32B150;
+}
+
+#avatar{
+	position: relative;
+	height: 16px;
+	width: 100px;
+}
+
+#avatar a{
+	position: absolute;
+	top: -7px;
+}
+
+#avatar a:hover div{
+	height:40px;
+}
+
+#avatar a>div.userInfo{
+	position:absolute;
+	width: 290px;
+    height: 318px;
+    border: 0;
+    border-top: 3px solid #32b150;
+    left: -92px;
+    top: 47px;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,.3);
+}
+
+#avatar a>div.userInfo>.sign{
+	height: 52px;
+    background: #232323;
+    padding: 4px 15px;
+}
+
+.sign>.item{
+	height: 26px;
+    line-height: 26px;
+    color: #999;
+}
+
+.sign>.item>.sign-box{
+    min-width: 140px;
+    max-width: 155px;
+    float: left;
+    text-align: left;
+}
+
+.sign>.item>.coin-box{
+    max-width: 110px;
+    float: right;
+    text-align: left;
+}
+
+.sign>.item>.sign-box>.signBtn{
+	float: right;
+    width: 44px;
+    height: 20px;
+    background: url(../img/index/head_sprite.png) -218px -36px no-repeat;
+    text-indent: -9999px;
+    margin-top: 3px;
+    padding: 0;
+    line-height: 100%;
+}
+
+.sign>.item>.coin-box>i{
+    width: 14px;
+    height: 16px;
+    background: url(../img/index/head_sprite.png) -54px -36px no-repeat;
+    float: left;
+    margin: 5px 5px 0 0;
+}
+
+.sign>.item b{
+	color: #fff;
+    padding: 0 5px;
+    font-weight: normal;
+}
+
+#avatar a>div.userInfo>.logoutBtn{
+	text-align: center;
+    background: #f3f3f3;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    display: block;
+    color: #3c3c46;
+    padding: 0 10px;
+    font-weight: normal;
+}
+
+#avatar a>div.userInfo>.logoutBtn:hover{
+    background: #e0e0e0;
+}
+
+.userInfo>.userApp{
+    position: static;
+    border: 0;
+    margin: 0 10px 8px;
+    overflow: hidden;
+}
+
+.userInfo>.userApp>li{
+	float: left;
+    border-bottom: 1px solid #f3f3f3;
+    border-left: 1px solid #f3f3f3;
+    width: 33%;
+    height: 70px;
+    margin: 0 !important;
+    margin-left: -1px !important;
+    text-align: center;
+}
+
+.userInfo>.userApp>li>p{
+    padding: 0;
+    display: block;
+    height: 60px;
+    padding-top: 10px;
+    color: #999;
+    line-height: 30px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.userInfo>.userApp>li>p:hover{
+	color: #32B150;
+	background-color: #f1f1f1;
+}
+
+.userInfo>.userApp>li>p b{
+    float: none;
+    display: block;
+    margin: 0 auto;
+    background-image: url(../img/index/headboxsprite.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+b.persion{
+	background-position: 0 0;
+}
+
+.userInfo>.userApp>li>p:hover b.persion{
+	background-position: -24px 0;
+}
+
+b.home{
+	background-position: -48px 0;
+}
+
+.userInfo>.userApp>li>p:hover b.home{
+	background-position: -72px 0;
+}
+
+b.zp{
+	background-position: -96px 0;
+}
+
+.userInfo>.userApp>li>p:hover b.zp{
+	background-position: -120px 0;
+}
+
+b.vip{
+	background-position: 0 -24px;
+}
+
+.userInfo>.userApp>li>p:hover b.vip{
+	background-position: -24px -24px;
+}
+
+b.money{
+	background-position: -48px -24px;
+}
+
+.userInfo>.userApp>li>p:hover b.money{
+	background-position: -72px -24px;
+}
+
+b.setting{
+	background-position: -96px -24px;
+}
+
+.userInfo>.userApp>li>p:hover b.setting{
+	background-position: -120px -24px;
+}
+
+b.toSinger{
+	background-position: 0 -48px;
+}
+
+.userInfo>.userApp>li>p:hover b.toSinger{
+	background-position: -24px -48px;
+}
+
+b.nameTest{
+	background-position: -48px -48px;
+}
+
+.userInfo>.userApp>li>p:hover b.nameTest{
+	background-position: -72px -48px;
+}
+
+b.music-box{
+	background-position: -96px -48px;
+}
+
+.userInfo>.userApp>li>p:hover b.music-box{
+	background-position: -120px -48px;
+}
+
+#avatar .userInfo>i{
+	width: 14px;
+    height: 5px;
+    position: absolute;
+    top: -8px;
+    left: 138px;
+    background: url(../img/index/head_sprite.png) -72px -36px no-repeat;
+}
+
+#avatar a>img{
+	margin-right: 7px;
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+}
+
+#avatar span{
+	width:68px;
+	overflow:hidden;
+	position:absolute;
+	left:42px;
+	top:7px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+.isLogin i{
+    width: 14px;
+    height: 11px;
+    background-position: -14px -36px;
+    position: relative;
+}

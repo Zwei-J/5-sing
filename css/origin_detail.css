@@ -1,0 +1,844 @@
+body{
+	margin-top: 102px;
+}
+
+div.header{
+	position: fixed;
+	top:0;
+	z-index: 999;
+}
+
+div.nav{
+	position: fixed;
+	top: 60px;
+	z-index: 888;
+}
+
+.container a{
+	color:rgb(155,155,155);
+}
+
+.container{
+	width:1000px;
+	margin:0 auto;
+	border-left:1px solid rgb(213, 213, 210);
+	border-right:1px solid rgb(213, 213, 210);
+	background:#fff;
+	color: rgb(155,155,155);
+}
+
+div.bread-nav{
+	padding:0 20px;
+	width: 960px;
+	height:56px;
+	line-height:56px;
+}
+
+div.main{
+	padding:0 20px;
+	width: 960px;
+}
+
+.main>.song-msg{
+	width: 696px;
+    margin: 0 38px 0 0;
+}
+
+.main>.song-msg>.item{
+	border: 1px solid #e0e0e0;
+}
+
+.song-msg>.item>h2{
+	font-size:24px;
+	padding-left: 15px;
+	color: #555;
+	line-height:58px;
+	height:58px;
+	border-bottom:2px solid #32b351;
+}
+
+.song-msg>.item>h2 a{
+	font-size:12px;
+	font-weight:normal;
+	margin-right:40px;
+}
+
+.song-msg>.item>h2 a:hover{
+	color: #66cc00;
+}
+
+.song-msg>.item>h2 a:hover i{
+	background-position: -92px -214px;
+}
+
+.song-msg>.item>h2 i{
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-right: 2px;
+	margin-top: 20px;
+	background: url("../img/detail/vi_bg.png") no-repeat -92px -198px;
+}
+
+.song-msg .msg>ul{
+    overflow: hidden;
+    width: 470px;
+    padding: 14px 0 0 20px;
+	margin-bottom:15px;
+}
+
+.song-msg .msg>ul>li{
+	float:left;
+	width:150px;
+    margin-right: 5px;
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.song-msg .msg>ul>li.long{
+	width:310px;
+}
+
+.msg a{
+	color:#333;
+}
+
+.song-msg .msg>a{
+	width:93px;
+	height:91px;
+	display:block;
+	background: url("../img/detail/vi_bg.png") no-repeat;
+	margin: 20px 70px 0 0;
+}
+
+.song-msg .item-list{
+	margin-bottom:12px;
+	line-height: 30px;
+}
+
+.song-msg>.item-list>ul{
+	float:left;
+}
+
+.song-msg .item-list li{
+	float:left;
+}
+
+.song-msg .item-list li>a{
+	display: block;
+    padding: 0 13px;
+    height: 30px;
+    color: #4caff4;
+	line-height: 30px;
+}
+
+.song-msg .item-list li>a:hover{
+	color: #2881bf;
+}
+
+.song-msg .item-list li>a>b{
+	display:inline-block;
+	width:20px;
+	height:16px;
+	position:relative;
+	top:7px;
+	margin-right:4px;
+	background-image: url("../img/detail/m_iconnew.png");
+	background-repeat: no-repeat;
+	margin-bottom: 3px;
+}
+
+li>a>b.list{
+	background-position: -80px 0;
+}
+
+.song-msg .item-list li>a:hover b.list{
+	background-position: -80px -16px;
+}
+
+.song-msg .item-list li>a:hover b.down{
+	background-position: 0 -16px;
+}
+
+li>a>b.share{
+	background-position: -20px 0;
+}
+
+.song-msg .item-list li>a:hover b.share{
+	background-position: -20px -16px;
+}
+
+li>a>b.collect{
+	background-position: -40px 0;
+}
+
+.song-msg .item-list li>a:hover b.collect{
+	background-position: -40px -16px;
+}
+
+li>a>b.rec{
+	background-position: -60px 0;
+}
+
+.song-msg .item-list li>a:hover b.rec{
+	background-position: -60px -16px;
+}
+
+.song-msg .item-list>.hot>a{
+	float:left;
+	padding: 0 13px;
+	color: #ff802b;
+}
+
+.item-list>.hot i{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	position: relative;
+	top: 4px;
+	right: 4px;
+	background-image: url("../img/detail/vi_bg.png");
+	background-repeat: no-repeat;
+}
+
+i.good{
+	background-position: -60px -182px;
+}
+
+i.hot{
+	background-position: -76px -182px;
+}
+
+.song-msg .item-list>.hot>a:hover i.good{
+	background-position: -60px -198px;
+}
+
+.song-msg .item-list>.hot>a:hover i.hot{
+	background-position: -76px -198px;
+}
+
+.song-msg>.tab{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 35px;
+	position: relative;
+}
+
+.song-msg>.tab a{
+	display: block;
+	float: left;
+	height: 34px;
+	width: 95px;
+	line-height: 34px;
+	border: 1px solid #e3e3e3;
+	font-size: 16px;
+	text-align: center;
+	color: #666;
+	position: relative;
+	z-index: 777;
+}
+
+.song-msg>.tab a.active{
+	position: relative;
+	left: 1px;
+	border-bottom: none;
+	border-top: 2px solid #35b352;
+	height: 33px;
+	border-bottom: 1px solid #fff;
+}
+
+.song-msg>.tab>div{
+	width: 656px;
+	line-height: 24px;
+	padding: 24px 20px;
+	color: #666;
+	font-size: 14px;
+	color: #666;
+	border: 1px solid #e3e3e3;
+	position: relative;
+	top: -1px;
+	left:1px;
+}
+
+.comment{
+	width: 100%;
+}
+
+.comment>h2{
+	font-weight: normal;
+	color: #666;
+}
+
+.comment>.commentInput{
+	width: 697px;
+	height: 95px;
+	margin-top: 30px;
+	position: relative;
+}
+
+.comment .shadow{
+	width: 100%;
+	height: 125px;
+	background-color: rgba(235,235,235,0.8);
+	position: absolute;
+	top: 0;
+}
+
+.comment .shadow p{
+	text-align: center;
+	line-height: 100px;
+	font-size: 14px;
+	color: #444;
+}
+
+.comment .shadow p a{
+	color: #4caff4;
+	text-decoration: underline;
+}
+
+.comment .combox{
+	width: 691px;
+	height: 90px;
+	outline: none;
+	border: 1px solid #ddd;
+	line-height: 20px;
+	border-radius: 3px;
+	resize: none;
+    overflow-y: hidden;
+}
+
+.comment>.operate{
+	margin-top: 8px;
+}
+
+.comment>.operate span{
+	cursor: pointer;
+	float: right;
+    width: 54px;
+    color: #666;
+    height: 16px;
+    line-height: 16px;
+    text-align: right;
+    background: url(../img/origin/m_icon.png) -64px -320px;
+}
+
+div.play-right{
+	width: 226px;
+}
+
+.play-right>.user_info{
+	position: relative;
+	border: 1px solid #e0e0e0;
+	padding: 10px 0;
+	height: 70px;
+}
+
+.user_info>.user_avt{
+	width: 70px;
+	height:70px;
+	margin-left: 10px;
+}
+
+.user_info>.user_avt img{
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	border: 1px solid #e0e0e0;
+}
+
+.user_info>h3{
+	height: 23px;
+	width: 120px;
+	margin-left:10px;
+	margin-top: 5px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.user_info>h3 a{
+	color: #333;
+}
+
+.user_info>h3 a:hover{
+	text-decoration: underline;
+}
+
+.user_info>.user_fans{
+	width: 120px;
+	margin-left: 10px;
+	color: #666;
+}
+
+.user_info>.user_fans i{
+	width: 16px;
+	height: 14px;
+	float: left;
+	margin-right: 8px;
+	background: url("../img/detail/vi_bg.png") -148px -202px no-repeat;
+}
+
+.user_info>p{
+	margin-left: 7px;
+	margin-top: 5px;
+}
+
+.user_info>p a{
+	display: inline-block;
+	border-radius: 2px;
+	text-align: center;
+	color:#fff;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 3px;
+}
+
+.user_info>p a.follow{
+	width: 56px;
+	background-color: #32b351;
+}
+
+.user_info>p a.follow:hover{
+	background-color: #2c9d47;
+}
+
+.user_info>p a.inMsg{
+	background-color: #6ebef6;
+	width: 60px;
+}
+
+.user_info>p a.inMsg i{
+	float: left;
+	width: 14px;
+	height: 12px;
+	background: url("../img/detail/vi_bg.png") -126px -218px no-repeat;
+	border-color: #6ebef6;
+	border-style: solid;
+	border-width: 5px 0 3px 4px;
+}
+
+.user_info>p a.inMsg:hover{
+	background-color: #2881bf;
+}
+
+.user_info>p a.inMsg:hover i{
+	border-color: #2881bf;
+}
+
+/*音乐播放器*/
+.player-control{
+	border-left: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 10px;
+}
+
+.player-control>.play-top{
+	height: 24px;
+	padding-top: 10px;
+}
+
+.player-control>.play-top>a{
+	height: 24px;
+	width: 24px;
+	margin: 0 10px 0 7px;
+	display: inline-block;
+	background-image: url("../img/detail/vi_bg.png");
+	background-repeat: no-repeat;
+}
+
+.player-control>.play-top>a.play{
+	background-position: 0 -182px;
+}
+
+.player-control>.play-top>a.play:hover{
+	background-position: -24px -206px;
+}
+
+.player-control>.play-top>a.pause{
+	background-position: -24px -182px;
+}
+
+.player-control>.play-top>a.pause:hover{
+	background-position: 0 -206px;
+}
+
+.player-control .song-name{
+	width: 175px;
+	line-height: 24px;
+	font-size: 13px;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #666;
+	cursor: pointer;
+	text-overflow: ellipsis;
+}
+
+.player-control .song-name:hover{
+	color: #e00;
+	text-decoration: underline;
+}
+
+.player-control>.progress-bar{
+	height: 3px;
+	margin: 12px auto 6px;
+	background: #f3f3f3;
+	position: relative;
+	width: 204px;
+	cursor: pointer;
+}
+
+.player-control .current-progress-bar{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 3px;
+	background: #32b351;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.player-control .loaded-progress-bar{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 3px;
+	background: #c4c4c4;
+	z-index: 0;
+	cursor: pointer;
+	transition: width .3s linear;
+}
+
+.player-control>.progress-bar .pointer{
+	position: absolute;
+	left: 0;
+	top: -2px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #32b351;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.player-control .time{
+	width: 204px;
+	margin: 0 auto 10px;
+	color: #999;
+}
+
+.player-control .play-way{
+	float: left;
+	width: 90px;
+	height: 20px;
+	margin-left: 7px;
+	background: #FFF;
+	padding-left: 3px;
+	line-height: 20px;
+	color: #999;
+	font: normal normal 12px 'Microsoft Yahei';
+}
+
+.player-control .play-way:hover a{
+	color: #6ebef6;
+}
+
+.player-control .play-way:hover i{
+	background: url("../img/detail/vi_bg.png") -108px -230px no-repeat;
+}
+
+.player-control .play-way i{
+	float: left;
+	width: 17px;
+	height: 14px;
+	border: 2px solid #fff;
+	margin-right: 2px;
+	background: url("../img/detail/vi_bg.png") -108px -216px no-repeat;
+}
+
+.play-volume{
+	height: 20px;
+	margin-left: 38px;
+}
+
+.play-volume>.volumeBox{
+	margin-left: 8px;
+	height: 31px;	
+}
+
+.play-volume .total{
+	position: relative;
+	float: left;
+	width: 50px;
+	background: #eaeaea;
+	border-top: 9px solid #fff;
+	border-bottom: 4px solid #efefef;
+	cursor: pointer;
+}
+
+.play-volume .current-vol{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3px;
+	height: 4px;
+	background: #999;
+	cursor: pointer;
+}
+
+.play-volume .pointer{
+	position: absolute;
+	top: -3px;
+	left: 2px;
+	width: 4px;
+	height: 10px;
+	background: #999;
+	cursor: pointer;
+}
+
+.play-volume i{
+	float: left;
+	width: 16px;
+	height: 16px;
+	border-top: 2px solid #fff;
+	background: url("../img/detail/vi_bg.png") -130px -183px no-repeat;
+	cursor: pointer;
+}
+/*************************/
+
+.play-right>.list{
+	border:1px solid #e0e0e0;
+	border-top: none;
+}
+
+.play-right>.list>.tab li{
+	float: left;
+}
+
+.play-right>.list>.tab li.active{
+	border-bottom: 2px solid #32b351;
+}
+
+.play-right>.list>.tab li>a{
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	width: 74px;
+	text-align: center;
+	color:#999;
+}
+
+.play-right>.list>.tab li>a:hover{
+	text-decoration: underline;
+}
+
+.play-right .list-container{
+	height: 409px;
+	overflow-y: scroll;
+	position: relative;
+	width: 100%;
+}
+
+.play-right .songlist{
+	min-height: 410px;
+}
+
+.play-right .list-container li{
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.play-right .list-container li:last-child{
+	border-bottom:none;
+}
+
+.play-right .list-container li>a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    padding-left: 10px;
+    /*width: 204px;*/
+    width: 194px;
+}
+
+.play-right .list-container li>a:hover{
+	color:#32b351;
+}
+
+.play-right .list-container li>a>span{
+	float: right;
+}
+
+.play-right .list-container li>a>b{
+	font-weight: normal;
+	float: left;
+	width: 93px;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.play-right .near{
+	margin-top: 40px;
+}
+
+.play-right .near>div{
+
+}
+
+.play-right .near>h2{
+	font-weight: normal;
+    color: #666;
+    font-size: 18px;
+    height: 34px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.play-right .near ul{
+	width: 242px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.play-right .code img,.play-right .banner img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.play-right .near .listener>li{
+	float: left;
+	height: 98px;
+	margin-right: 10px;
+}
+
+.play-right .near .listener>li p{
+    width: 48px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.play-right .near .listener>li i{
+	font-style: normal;
+	display: block;
+	text-align: center;
+}
+
+.play-right .near .listener>li img{
+	width: 48px;
+	height: 48px;
+}
+
+.comment-list{
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
+
+.comment-list>.noComment{
+	margin-left: 100px;
+}
+
+.comment-list>.noComment>img{
+	width: 200px;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.comment-list>.noComment>p{
+	font-size: 24px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.comment-list>li{
+	padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.comment-list>li>a{
+	float: left;
+	width: 62px;
+	margin-right: 16px;
+}
+
+.comment-list>li>a>img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+    box-shadow: 0 0 2px #888;
+    margin-left: 2px;
+    display: block;
+}
+
+.comment-list>li>div{
+	float: left;
+    width: 582px;
+}
+
+.comment-list>li p{
+	margin-bottom: 10px;
+}
+
+.comment-list>li p>a{
+	font-size: 14px;
+	color: #666;
+}
+
+.comment-list>li p>a:hover{
+	text-decoration: underline;
+}
+
+.comment-list>li .comment{
+	margin-bottom: 10px;
+    width: 582px;
+    word-wrap: break-word;
+    word-break: normal;
+    overflow: hidden;
+    color: #666;
+}
+
+.comment-list>li .other span{
+	float: left;
+	color: #999;
+}
+
+.comment .page{
+	text-align: center;
+	margin-bottom: 60px; 
+}
+
+.comment .page>p>span{
+	color: #666;
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 10px;
+	border:1px solid #e3e3e3;
+	margin: 0 2px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.comment .page>p>span.currentPage{
+	background-color: #2c9d47;
+	border-color: #2c9d47;
+	color: #fff;
+}
+
+.comment .page>p>span:hover{
+	border-color:#2c9d47;
+}
+
+.comment .page>p>span.effect{
+	color: #aaa;
+    border: 1px solid #f3f3f3;
+    cursor: default;
+}

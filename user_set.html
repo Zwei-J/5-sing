@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>基本资料 - 5SING中国原创音乐基地</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/user.css">
+	<link rel="stylesheet" href="css/user_set.css">
+	<script type="text/javascript" src="js/init.js"></script>
+</head>
+<body>
+	<div class="header runoff" id="header"></div>
+	<div class="info_banner">
+		<div class="banner clear">
+			<div class="avatar lf">
+				<img id="avt">
+			</div>
+			<div class="info lf">
+				<p class="user_name" id="user_name"></p>
+				<p class="nav">
+					<a href="user_center.html">个人中心</a><a href="#">站内信</a><a href="#">相册</a><a href="user_set.html" style="border-right:none" class="active">账号设置</a>
+				</p>
+			</div>
+			<div class="btn rt">
+				<a href="#" class="upload">
+					<i class="upload-icon"></i>上传歌曲
+				</a>
+				<a href="#" class="manage">
+					<i class="manage-icon"></i>管理作品
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<h1 class="title">账号设置</h1>
+		<div class="main-tab clear">
+			<ul class="tab-nav lf">
+				<li>
+					<a href="#info" class="active">
+						<i class="persion"></i>
+						个人资料
+					</a>
+				</li>
+				<li>
+					<a href="#safe">
+						<i class="safe"></i>
+						账号安全
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="weibo"></i>
+						连接绑定
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="ys"></i>
+						隐私设置
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="gx"></i>
+						个性装扮
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="singer"></i>
+						申请音乐人
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="shopsinger"></i>
+						申请淘歌达人
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="live"></i>
+						申请LIVE资格
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="money"></i>
+						财富中心
+					</a>
+				</li>
+			</ul>
+			<div class="tab-container">
+				<div class="" id="info" style="display: block;">
+					<div class="child-tab-title">
+						<ul class="clear">
+							<li><a href="javascript:;" class="active">基本资料</a></li>
+							<li><a href="javascript:;">实名认证</a></li>
+						</ul>
+					</div>
+					<div class="setting">
+						<form action="#">
+							<p>
+								<span>通行证</span>
+								<a>
+									<b id="passRoute"></b>
+								</a>
+							</p>
+							<p>
+								<span>ID</span>
+								<a>
+									<b id="id"></b>
+								</a>
+							</p>
+							<p>
+								<span>昵称</span>
+								<a class="name">
+									<input type="text" id="user" value=""> <span id="nameState"></span><br>
+									<span>（昵称限4-16个字符，1个汉字为2个字符，仅限中文、字母、数字、下划线）</span>
+								</a>
+							</p>
+							<p>
+								<span>性别</span>
+								<a class="gender" id="gender">
+									<span>男</span>
+									<span>女</span>
+									<span>团体</span><br>
+									<b>性别确认后将不能再次更改</b>
+								</a>
+							</p>
+							<p>
+								<span>生日</span>
+								<input type="hidden" value="">
+								<a class="born">
+									<select id="born_year">
+									</select>年
+									<select id="born_month">
+										<option></option>
+									</select>月
+									<select id="born_day">
+										<option></option>
+									</select>日
+								</a>
+							</p>
+							<p>
+								<span>所在地</span>
+								<a class="area">
+									<select id="nation">
+										<option id="place">请选择</option>
+										<option value="中国">中国</option>
+									</select>
+									<select id="province">
+										<option>请选择</option>
+									</select>
+								</a>
+							</p>
+							<p>
+								<span>QQ号</span>
+								<a class="name">
+									<input id="Qnum" type="text">
+								</a>
+							</p>
+							<div class="line"></div>
+							<p>
+								<span>音乐身份<br><b>(限选三个)</b></span>
+								<a class="btn-sel" id="music_identity">
+									<span>听众</span>
+									<span>歌手</span>
+									<span>曲作者</span>
+									<span>词作者</span>
+									<span>制作人/编曲</span>
+									<span>乐手</span><br>
+									<span>DJ/电台主持人</span> 
+									<span>企宣/网宣</span>
+									<span>唱片公司/工作室</span>
+									<span>乐评人</span>
+									<span>后期</span>
+								</a>
+							</p>
+							<p>
+								<span>语言<br><b>(限选三个)</b></span>
+								<a class="btn-sel" id="music_language">
+									<span>华语</span>
+									<span>欧美</span>
+									<span>日语</span>
+									<span>韩语</span>
+									<span>俄语</span>
+									<span>法语</span>
+									<span>德语</span><br>
+									<span>粤语</span>
+									<span>闽南语</span>
+									<span>方言</span>
+									<span>其他</span>
+								</a>
+							</p>
+							<p>
+								<span>曲风<br><b>(可多选)</b></span>
+								<a class="btn-sel style" id="music_style">
+									<span>古风</span>
+									<span>R&B</span>
+									<span>搞笑/另类</span>
+									<span>RAP/说唱</span>
+									<span>民谣</span>
+									<span>纯音乐</span>
+									<span>对唱/合唱</span><br>
+									<span>儿歌</span>
+									<span>红歌</span>
+									<span>古典</span>
+									<span>摇滚</span>
+									<span>电子</span>
+									<span>流行</span>
+									<span>HIP/HOP</span><br>
+									<span>新世纪</span>
+									<span>民族</span>
+									<span>美声</span>
+									<span>宗教</span>
+									<span>动漫/游戏</span>
+									<span>影视</span>
+									<span>广播剧</span><br>
+									<span>爵士</span>
+									<span>DJ/舞曲</span>
+									<span>戏曲/曲艺</span>
+									<span>填词</span>
+									<span>喊麦/MC</span>
+									<span>朗诵</span>
+								</a>
+							</p>
+							<p>
+								<span>个人介绍</span>
+								<a class="intro">
+									<textarea name="" id="introduce" cols="30" rows="10"></textarea>
+									<br>
+									<b>(个人介绍限4000个字符)</b>
+								</a>
+							</p>
+							<div class="upload">
+								<input type="file" id="upload" class="upload-box" style="">
+								<a href="javascript:;">
+									<div class="upload-area">
+										<img>
+										<span>上传头像</span>
+									</div>
+									<p>（请选择图片文件png，jpg格式，1M以内，建议像素大小为300px*300px）</p>
+								</a>
+							</div>
+							<p>
+								<span></span>
+								<a class="submit">
+									<button>保存</button>
+								</a>
+							</p>
+						</form>
+					</div>
+				</div>
+				<div class="" id="safe" style="display: none;">
+					<div class="child-tab-title">
+						<ul class="clear">
+							<li><a href="javascript:;" class="active">修改密码</a></li>
+						</ul>
+					</div>
+					<div class="changePwd">
+						<dl>
+							<dt>原密码</dt>
+							<dd>
+								<input type="password" id="upwd">
+							</dd>
+						</dl>
+						<dl>
+							<dt>新密码</dt>
+							<dd>
+								<input type="password" id="newPwd">
+							</dd>
+							<dt>6-15位字符（字母、数字、符号），区分大小写</dt>
+						</dl>
+						<dl>
+							<dt>再次输入密码</dt>
+							<dd>
+								<input type="password" id="askPwd">
+							</dd>
+						</dl>
+						<p>
+							<button id="updateUpwd">确认修改</button>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-info" id="footer"></div>
+	<div id="mod_alert" class="alert" style="color: #60B218;background:none;display: none;">
+		性别不可修改
+	</div>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/user_set.js"></script>
+	<script type="text/javascript" src="js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿歌曲详情表
+曲ID  曲名 曲名连接 歌手(外键) 歌手连接 灵感  风格  作词
+作曲  编曲  混缩  分类  语种  上传时间
+		 歌名  地址 歌手   灵感    风格   分类  头像
+SELECT sname,href,singer,afflatus,style,(SELECT 
+avatar FROM wx_user WHERE uname=singer)as header FROM songlist 
+WHERE type = "原创" LIMIT 0,10;
+
+
+
+歌曲评论表
+
+评论ID 曲ID(外键) 评论内容 评论用户(外键) 用户头像 用户链接 评论时间  
+
+CREATE TABLE user_comment(
+	ucid INT PRIMARY KEY AUTO_INCREMENT,
+	sid INT,
+		FOREIGN KEY(sid) REFERENCES songlist(sid),
+	comment VARCHAR(512) NOT NULL,
+	cuser VARCHAR(32),
+		FOREIGN KEY(cuser) REFERENCES wx_user(uname),
+	time DATETIME
+);
+
+
+评论表 分页查询功能
+
+PHP
+	comment_controller.php -> loadComment()
+
+	接收值 
+
+	返回值：pageSize页记录数
+			recodeCount总记录数
+			pageCount总页数
+			pno当前页码
+			data当前页内容
+
+
+user表	增加 关注列(fans)
+增加用户中心模块
+songlist  增加 作词，作曲，编曲，混缩，下载设置，下载次数，收藏，点赞次数，热度等列
+
+账号设置OK——个人中心——我的主页(音乐中心)OK
+
+user表
+
+uid,phone,uname,upwd,email,avatar,gender,
+born,location,Qnum,music_identity,language,style,introduce,attention,fans,hot
+
+
+详情页访客表
+
+vid,sid(外键),vname(外键),vtime

@@ -1,0 +1,101 @@
+.info_banner{
+	width: 100%;
+	background-color: #fafafa;
+	border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+.info_banner>.banner{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0px 30px;
+}
+
+.info_banner>.banner>.avatar{
+	width:160px;
+	height: 106px;
+}
+
+.info_banner>.banner>.avatar>img{
+	width: 94px;
+	height: 94px;
+	border: 6px solid #fff;
+	box-shadow: rgb(0, 0, 0) 0px 1px 2px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+.info_banner>.banner>.info{
+	margin-top: 30px;
+}
+
+.info_banner>.banner>.info>.user_name{
+	font-size: 22px;
+	height: 33px;
+	line-height: 33px;
+}
+
+.info_banner>.banner>.info>.nav{
+	height: 30px;
+	line-height: 23px;
+	margin-top: 13px;
+}
+
+.info_banner>.banner>.info>.nav>a{
+	width: 76px;
+	display: inline-block;
+	text-align: center;
+	border-right: 1px solid #ddd;
+	font-size: 14px;
+	color: rgb(102,102,102);
+}
+
+.info_banner>.banner>.info>.nav>a.active{
+	color: rgb(17,135,255);
+	font-weight: bold;
+}
+
+.info_banner .btn{
+	margin-top: 53px;
+}
+
+.info_banner .btn>a{
+	display: inline-block;
+    width: 114px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin: 0 10px;
+}
+
+.info_banner .btn>a>i{
+    float: left;
+    width: 17px;
+    height: 17px;
+    display: inline;
+    overflow: hidden;
+    background-image: url(../img/user_info/b_ico.png);
+    background-repeat: no-repeat;
+    margin: 12px 5px 0px 15px;
+}
+
+i.manage-icon{
+	background-position: -122px 0;
+}
+
+.info_banner .btn>a.upload:hover{
+	background: #FAA80B;
+}
+
+.info_banner .btn>a.upload{
+	background: #F49000;
+}
+
+.info_banner .btn>a.manage:hover{
+	background: #00B7FA;
+}
+
+.info_banner .btn>a.manage{
+	background: #0798CF;
+}

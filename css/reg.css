@@ -1,0 +1,374 @@
+body{
+	background:url("../img/reg/reg_bg.jpg") no-repeat center top;
+	height: 100%;
+}
+
+.regCon{
+	width: 100%;
+	background-color: #fff;
+	padding: 50px 0;
+	margin-top: 3%;
+}
+
+.regCon>div.mainReg{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.mainReg>a{
+	position: relative;
+	top: 60px;
+	left: 70px;
+	animation: logo 1.2s;
+	-webkit-animation: logo 1.2s;
+	-moz-animation: logo 1.2s;
+	-o-animation: logo 1.2s;
+}
+
+@keyframes logo{
+	0%{
+		opacity: 0;
+		left: 95px;
+	}
+	20%{
+		opacity: 0;
+		left: 95px;
+	}
+	100%{
+		opacity: 1;
+		left: 70px;
+	}
+}
+
+@-webkit-keyframes logo{
+	0%{
+		opacity: 0;
+		left: 95px;
+	}
+	20%{
+		opacity: 0;
+		left: 95px;
+	}
+	100%{
+		opacity: 1;
+		left: 70px;
+	}
+}
+
+@-moz-keyframes logo{
+	0%{
+		opacity: 0;
+		left: 95px;
+	}
+	20%{
+		opacity: 0;
+		left: 95px;
+	}
+	100%{
+		opacity: 1;
+		left: 70px;
+	}
+}
+
+@-o-keyframes logo{
+	0%{
+		opacity: 0;
+		left: 95px;
+	}
+	20%{
+		opacity: 0;
+		left: 95px;
+	}
+	100%{
+		opacity: 1;
+		left: 70px;
+	}
+}
+
+.register{
+	width: 320px;
+	border: 1px solid #eee;
+	padding: 0 25px;
+	position: relative;
+	right: 35px;
+	height: 456px;
+}
+
+@keyframes form1{
+	0%{
+		opacity: 0;
+		transform: translate(-20px);
+	}
+	20%{
+		opacity: 0;
+		transform: translate(-20px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes form1{
+	0%{
+		opacity: 0;
+		transform: translate(-20px);
+	}
+	20%{
+		opacity: 0;
+		transform: translate(-20px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+@-moz-keyframes form1{
+	0%{
+		opacity: 0;
+		transform: translate(-20px);
+	}
+	20%{
+		opacity: 0;
+		transform: translate(-20px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+@-o-keyframes form1{
+	0%{
+		opacity: 0;
+		transform: translate(-20px);
+	}
+	20%{
+		opacity: 0;
+		transform: translate(-20px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+.register>p>a{
+	padding: 10px;
+	font-size: 16px;
+	color: #666;
+	border-top: 4px solid #fff;
+	display: inline-block;
+}
+
+.register>p>a:hover{
+	border-top-color: #DEF4CA;
+}
+
+.register>p>a.active{
+	border-top-color: #66cc00;
+	font-weight: bold;
+}
+
+.register>p>span{
+	line-height: 50px;
+	color: #666;
+}
+
+.register>p>span a{
+	color: #66cc00;
+}
+
+.register>p>span a:hover{
+	text-decoration: underline;
+}
+
+div.form1{
+	position: absolute;
+	animation: form1 1.2s;
+	-webkit-animation: form1 1.2s;
+	-moz-animation: form1 1.2s;
+	-o-animation: form1 1.2s;
+}
+
+.form1>form.phoneReg>p{
+	padding: 10px 0;
+	position: relative;
+}
+
+.phoneReg>p>span{
+	position: absolute;
+	left:3px;
+}
+
+.phoneReg>p span.canUse{
+	color: #66cc00;
+}
+
+.phoneReg>p span.cantUse{
+	color: #E84C3D;
+}
+
+.form1 .phoneReg>p input{
+	padding: 12px 10px;
+    border: #e2e2e2 solid 1px;
+    width: 298px;
+    font-size: 14px;
+    outline: none;
+    color: #333;
+    margin: 0;
+}
+
+.form1 .phoneReg>p.agree input{
+	width: 13px;
+	position: relative;
+	top: 2px;
+}
+
+.form1 .phoneReg>p.agree{
+	color: #666;
+}
+
+.form1 .phoneReg>p.agree a{
+	color: #3399ff;
+}
+
+.form1 .phoneReg>p.agree a:hover{
+	text-decoration: underline;
+}
+
+.form1 .phoneReg a#reg{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	background-color: #66cc00;
+	cursor: pointer;
+}
+
+.teamMate{
+	margin-top: 15px;
+	height: 35px;
+	line-height: 35px;
+	color: #666;
+}
+
+.teamMate{
+	margin-top: 15px;
+	height: 35px;
+	line-height: 35px;
+	color: #666;
+}
+
+.teamMate>p{
+	padding: 30px;
+	font-size: 14px;
+	color: #666;
+	line-height: 32px;
+}
+
+.teamMate a{
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background-image: url("../img/login/sns_icons_2.png");
+	background-repeat: no-repeat;
+	margin-left: 2px;
+}
+
+.teamMate a.QQ{
+	background-position: 0 0;
+}
+
+.teamMate a.sina{
+	background-position: -32px 0;
+}
+
+.teamMate a.tencent{
+	background-position: -64px -60px;
+}
+
+.teamMate a.kugou{
+	background-position: 0 -60px;
+}
+
+.teamMate>span{
+	margin-right: 20px;
+}
+
+div.form2{
+	position: absolute;
+	animation: form2 1.2s;
+	-webkit-animation: form2 1.2s;
+	-moz-animation: form2 1.2s;
+	-o-animation: form2 1.2s;
+}
+
+@keyframes form2{
+	0%{
+		opacity: 0;
+		transform: translate(20px);
+	}
+	20%{
+		opacity: 0;
+		transform: translate(20px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+div.form2>div.not{
+	width: 278px;
+	padding: 20px;
+	text-align: center;
+}
+
+.form2>p{
+	font-size: 17px;
+	font-weight: bold;
+	color: #999;
+	padding: 30px;
+}
+
+.form2>div img{
+	width: 200px;
+	opacity: 0.5;
+}
+
+div.regSuccess{
+	width: 180px;
+	height: 80px;
+	position: absolute;
+	display: none;
+	top: -150px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: rgba(0,0,0,0.5);
+	font-family: "宋体";
+	font-weight: bold;
+	border-radius: 5px;
+	text-align: center;
+	color: #66cc00;
+	font-size: 26px;
+	line-height: 80px;
+	animation: suc 0.8s;
+}
+
+@keyframes suc{
+	0%{
+		top: -230px;
+	}
+	100%{
+		top: -150px;
+	}
+}

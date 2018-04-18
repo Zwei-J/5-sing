@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>5sing 中国原创音乐基地 新用户注册</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/reg.css">
+	<script type="text/javascript" src="js/init.js"></script>
+	<script type="text/javascript" src="js/reg.js"></script>
+</head>
+<body>
+	<div class="regCon">
+		<div class="mainReg clear runoff">
+			<a href="index.html" class="lf">
+				<img src="img/reg/reg_lt.png" title="中国原创音乐基地">
+			</a>
+			<div class="register rt">
+				<p class="clear">
+					<a href="javascript:;" class="active lf">手机号注册</a>
+					<a href="javascript:;" class="lf">邮箱注册</a>
+					<span class="rt">
+						已有账号？
+						<a href="login.html">立即登录</a>
+					</span>
+				</p>
+				<div class="form form1" style="display: block">
+					<form class="phoneReg">
+						<p>
+							<input type="text" placeholder="手机号码" name="phone" id="phone" maxlength="11">
+					<!--		-->
+							<span id="isCanUsePhone"></span>
+						</p>
+						<p>
+							<input type="text" placeholder="16字以内用户昵称" name="uname" id="uname" maxlength="16">
+					<!--	<span class="cantUse">用户名已被注册</span>	-->
+							<span id="isCanUseUname"></span>
+						</p>
+						<p>
+							<input type="password" placeholder="16位以内字母和数字密码" id="upwd" maxlength="16">
+							<span id="isCanUseUpwd"></span>
+						</p>
+						<p>
+							<input type="password" id="reUpwd" placeholder="确认密码">
+							<span id="isCanUseReupwd"></span>
+						</p>
+						<p class="agree">
+							<input type="checkbox" checked>
+							同意并遵守<a href="#">《5sing用户协议》</a>和<a href="#">《隐私政策》</a>
+						</p>
+						<p>
+							<a href="javascript:;" id="reg">立即注册</a>
+						</p>	
+					</form>
+					<div class="teamMate clear">
+						<span class="lf">
+							合作账号登录
+						</span>
+						<span class="lf">
+							<a href="#" class="QQ" title="QQ"></a>
+							<a href="#" class="sina" title="新浪微博"></a>
+							<a href="#" class="tencent" title="腾讯音乐人"></a>
+							<a href="#" class="kugou" title="酷狗"></a>
+						</span>
+					</div>
+				</div>
+				<div class="form form2" style="display: none;">
+					<p class="notice">服务暂未上线，请等待</p>
+					<div class="not">
+						<img src="img/reg/notFound.png" title="服务未上线">
+					</div>
+					<div class="teamMate clear">
+						<span class="lf">
+							合作账号登录
+						</span>
+						<span class="lf">
+							<a href="#" class="QQ" title="QQ"></a>
+							<a href="#" class="sina" title="新浪微博"></a>
+							<a href="#" class="tencent" title="腾讯音乐人"></a>
+							<a href="#" class="kugou" title="酷狗"></a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="regSuccess" id="regSuc" style="display: none">
+				注册成功
+			</div>
+		</div>
+	</div>
+</body>
+</html>

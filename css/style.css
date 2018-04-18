@@ -1,0 +1,874 @@
+div.banner-container{
+	width: 100%;
+	position: relative;
+	background-color: #DEDAD7;
+}
+
+.banner-container>div.main-banner{
+	width: 1000px;
+	height: 280px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	z-index: 88;
+}
+
+.main-banner>div.banner-img{
+	width: 9000px;
+	position: absolute;
+}
+
+.main-banner>div.banner-img a{
+	float: left;
+}
+
+.main-banner>div.banner-img a>img{
+	display: block;
+}
+
+.main-banner>ul.banner-point{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 15px;
+	cursor: default;
+}
+
+.main-banner>ul.banner-point li{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #eee;
+	margin: 0 6px;
+	cursor: pointer;
+}
+
+.main-banner>ul.banner-point li.act{
+	background-color: #32B150;
+}
+
+.main-banner>span{
+	width: 20px;
+    height: 46px;  
+    position: absolute;
+    top: 117px;
+}
+
+.main-banner>span>a{
+	width: 17px;
+	height: 42px;
+	background-image: url(../img/index/banner_arr.png);
+    display: block;
+    position: absolute;
+    top: 2px;
+}
+
+.main-banner>span.prev{
+	left: 8px;
+	display: none;
+}
+
+.main-banner>span.prev>a{
+	background-position: 0 0;
+}
+
+.main-banner>span.next{
+	right: 8px;
+	display: none;
+}
+
+.main-banner>span.next>a{
+	background-position: -17px 0;
+	float: right;
+}
+
+div.container{
+	background-color: #fff;
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #e9e9e9;
+	border-top: 0;
+	border-bottom: 0;
+}
+
+div.type-recom{
+	padding-top: 40px;
+	margin: 0 20px;
+}
+
+.type-recom>div.recommend{
+	width: 660px;
+	position: relative;
+}
+
+div.title{
+	border-bottom: 2px solid #32B150;
+	position: relative;
+	padding-top: 10px;
+}
+
+div.title>span{
+	font-size: 18px;
+	display: inline-block;
+	position: relative;
+	top: -6px;
+}
+
+div.title>p{
+	margin-left: 25px;
+	color:#999;
+	float: left;
+}
+
+div.title>p>a.first_txt{
+	font-weight: bold;
+	color: #666;
+}
+
+div.title>p>a{
+	padding: 0 2px;
+	color: #999;
+}
+
+div.title a:hover{
+	color: #4CAFF4;
+}
+
+div.title>a{
+	color: #666;
+}
+
+div.title>i{
+	position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 21px;
+    height: 10px;
+    margin-left: -10px;
+    background: url("../img/index/rec_sprite_v1.png") -75px -20px no-repeat;
+}
+
+div.tabList{
+	width: 300px;
+	padding: 0 15px;
+	margin-top: 12px;
+}
+
+.tabList>p>span i{
+	width: 18px;
+	height: 18px;
+	background-position: -19px 0;
+}
+
+.tabList>p>span i.micPhone{
+	background-position: 0 0;
+}
+
+.tabList>p>span b{
+	font-size: 16px;
+	font-weight: normal;
+	display: inline-block;
+	position: relative;
+	top:-2px;
+	color: #333;
+}
+
+.tabList>p i{
+	display: inline-block;
+	background-image: url("../img/index/rec_sprite_v1.png");
+	position: relative;
+}
+
+.tabList>p a{
+	margin-right: 10px;
+	color: #666;
+}
+
+.tabList>p a:hover{
+	color: #4CAFF4;
+}
+
+.tabList>p a.next-groud>i{
+	width: 14px;
+	height: 13px;
+	background-position: -56px 0;
+	top:2px;
+}
+
+.tabList>p a.all-play>i{
+	width: 12px;
+	height: 12px;
+	background-position: -40px 0;
+	top:2px;
+}
+
+.tabList>ul{
+	margin-top: 8px;
+}
+
+.tabList>ul>li>span{
+	width: 210px;
+	float: left;
+	overflow: hidden;
+}
+
+.tabList>ul>li{
+	height: 36px;
+	line-height: 36px;
+	overflow:hidden;
+	color: rgb(51,51,51);
+	transition:height .3s;
+	cursor:default;
+}
+
+.tabList>ul>li.hide{
+	height:0px;
+}
+
+.tabList>ul>div{
+	height:0px;
+	overflow:hidden;
+	transition:height .3s;
+	cursor:default;
+}
+
+.tabList>ul>div.show{
+	height:112px;
+}
+
+.tabList>ul>li>b{
+	width: 80px;
+	float: right;
+	color: #999;
+	font-weight: normal;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow: hidden;			/* 三个属性结合起来可以实现超出一行显示... */
+}
+
+div.tab>.photoBor{
+	width: 88px;
+	height: 110px;
+	margin-right: 8px;
+    background: url("../img/index/rec_sprite_v1.png") 1px -34px no-repeat;
+    padding: 1px 2px;
+    text-align: center;
+    color: #787878;
+}
+
+div.tab>.photoBor>img{
+	width: 88px;
+	height: 88px;
+}
+
+div.detail{
+	width: 200px;
+	color: #999;
+}
+
+div.detail>p,div.detail>a{
+	line-height: 24px;
+}
+
+div.detail>p>a.songName{
+	width: 170px;
+	color: rgb(51,51,51);
+	font-size: 14px;
+	height: 24px;
+	overflow: hidden;
+}
+
+div.detail>p>a.songName:hover{
+	font-weight: bold;
+	color: #000;
+	text-decoration: underline;
+}
+
+div.detail>p>a.listen-icon{
+	width: 20px;
+	height: 17px;
+	background: url("../img/index/rec_sprite_v1.png") -73px 1px no-repeat;
+	margin-top: 4px;
+}
+
+div.detail>a{
+	color:#999;
+}
+
+div.detail>a:hover{
+	text-decoration: underline;
+}
+
+div.detail>div.info{
+	height: 60px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+div.special{
+	padding-left: 10px;
+}
+
+.special>div.item{
+	float: left;
+	width: 110px;
+	height: 140px;
+	padding-right: 20px;
+	margin: 15px 0;
+	background: url("../img/index/gd_sprite.png") -128px 2px no-repeat;
+	position: relative;
+}
+
+.special>div.item a{
+	color: rgb(102,102,102);
+}
+
+.special>div.item a:hover{
+	color: #4CAFF4;
+}
+
+.special>div.item>a img{
+	width: 110px;
+	height: 110px;
+	overflow: hidden;
+	display: block;
+	border-radius: 10px;
+}
+
+.special>div.item>span{
+	width: 110px;
+	height: 26px;
+	position: absolute;
+	top: 84px;
+	left: 0;
+	line-height: 26px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 0 0 10px 10px;
+}
+
+.special>div.item>span>i{
+	width: 15px;
+	height: 12px;
+	float: left;
+	margin: 7px 8px 0;
+	background: url("../img/index/rec_sprite_v1.png") no-repeat -96px 0;
+}
+
+.special>div.item>a.specialTit{
+	width: 90px;
+	padding: 0 10px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+div.song-list{
+	width: 240px;
+	padding: 0 20px;
+}
+
+div.song-list>div.rightBanner{
+	margin-bottom: 15px;
+}
+
+.rightBanner>img{
+	width: 240px;
+	height: 240px;
+}
+
+.infoRec>p{
+	font-size: 14px;
+	color: rgb(51,51,51);
+	height: 40px;
+	line-height: 40px;
+}
+
+.infoRec>p>span{
+	float: right;
+}
+
+.infoRec>p>span>a{
+	width: 16px;
+	height: 13px;
+	display: inline-block;
+	background-image: url("../img/index/rec_sprite_v1.png");
+	background-repeat: no-repeat;
+}
+
+.infoRec>p>span>a.prev{
+	background-position: 0 -20px;
+}
+
+.infoRec>p>span>a.prev:hover{
+	background-position: -16px -20px;
+}
+
+.infoRec>p>span>a.next{
+	background-position: -32px -20px;
+	margin-left: 8px;
+}
+
+.infoRec>p>span>a.next:hover{
+	background-position: -48px -20px;
+}
+
+.infoRec>ul>li{
+	position: relative;
+	height: 24px;
+	line-height: 24px;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.infoRec>ul i{
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	top: 9px;
+	left: 0px;
+	background: url("../img/index/rec_sprite_v1.png") -96px -20px no-repeat;
+}
+
+.infoRec>ul a{
+	padding-left: 11px;
+	color: rgb(51,51,51);
+}
+
+.infoRec>ul a:hover{
+	color: #4CAFF4;
+	text-decoration: underline;
+}
+
+div.rank{
+	margin-top: 20px;
+}
+
+.rank>div.tabTitle{
+	line-height: 30px;
+}
+
+.rank>.tabTitle>a{
+	width: 80px;
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	border-bottom: 2px solid #dadada;
+	text-align: center;
+	color: #666;
+}
+
+.rank>.tabTitle>a.active{
+	font-weight: bold;
+	color: #333;
+	border-bottom: 2px solid #32b351;
+}
+
+.rank>p{
+	height: 36px;
+	line-height: 36px;
+}
+
+.rank>p.control>a{
+	padding-left: 10px;
+	color: #666;
+}
+
+.rank>p.control>a:hover{
+	color: #4CAFF4;
+}
+
+.rank>p.control>a>i{
+	width: 14px;
+	height: 13px;
+	display: inline-block;
+	position: relative;
+	background-image: url("../img/index/rec_sprite_v1.png");
+	background-repeat: no-repeat;
+}
+
+.rank>p.control>a.next-groud i{
+	width: 14px;
+	height: 13px;
+	background-position: -56px 0;
+	top: 2px;
+}
+
+.rank>p.control>a.all-play i{
+	width: 12px;
+	height: 12px;
+	background-position: -40px 0;
+	top: 1px;
+}
+
+ul.rank-top{
+	background: url("../img/index/rank_bg.png") no-repeat;
+	padding: 3px 0;
+}
+
+.rank-top>li{
+	height: 41px;
+	line-height: 41px;
+}
+
+.rank-top>li>a.title{
+	float: left;
+    width: 140px;
+    height: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+}
+
+.rank-top>li>a:hover,.rank-top>li>a:hover b.fir,
+.rank-top>li>a:hover b.sec,.rank-top>li>a:hover b.thi{
+	color: #32B150;
+}
+
+.rank-top>li>.title>b.fir{
+	color: #ed2a20;
+}
+
+.rank-top>li>.title>b.sec{
+	color: #eb7000;
+}
+
+.rank-top>li>.title>b.thi{
+	color: #f1a009;
+}
+
+.rank-top>li>.title>b{
+    float: left;
+    width: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.rank-top>li>a.singer{
+    float: right;
+    width: 80px;
+    height: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 8px;
+    color: #999;
+}
+
+.rank-top>li>a.singer:hover{
+	color: #32B150;
+}
+
+/*div.music-site{
+	padding: 0 20px;
+	margin-top: 30px;
+}
+
+ul.locale{
+	margin-top: 20px;
+}
+
+.locale>li.item{
+	float: left;
+	width: 200px;
+	margin: 0 20px;
+	position: relative;
+}
+
+.locale>.item>a{
+	display: block;
+}
+
+.locale>.item>a>img{
+	width: 100%;
+}
+
+.locale>.item>span.hot{
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	background: url("../img/index/live-hot-1.gif");
+	top: 8px;
+	right: 0px;
+}
+
+.locale>.item>div.info{
+    width: 180px;
+    height: 68px;
+    background: url("../img/index/live_sprite_v1.png") -200px -134px no-repeat;
+    padding: 7px 10px 0;
+    color: #999;
+}
+
+.locale>.item>div.info a{
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	color: #333;
+}
+
+.locale>.item>div.info a:hover{
+	color: #4CAFF4;
+}
+
+.locale>.item>div.info p{
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	word-spacing: nowrap;
+	text-overflow: 
+}
+
+.locale>.item>div.info>p>i{
+    float: left;
+    width: 14px;
+    height: 12px;
+    margin: 4px 3px 0 0;
+    background: url("../img/index/live_sprite_v1.png") 0px -150px no-repeat;
+}*/
+
+div.hotSinger{
+	padding: 0 20px 40px 20px;
+	margin-top: 35px;
+}
+
+div.hotSinger>div.singerTop{
+	width: 192px;
+    height: 316px;
+    float: left;
+    padding: 16px 28px 0;
+    background: url("../img/index/msc_sprite.png") no-repeat -265px 0;
+    margin-top: 21px;
+}
+
+div.singerTop>a.title{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #666;
+	display: block;
+	font-size: 14px;
+}
+
+div.singerTop>a.title:hover{
+	color: #4CAFF4;
+}
+
+div.singerTop>a>img{
+	width: 190px;
+	height: 190px;
+}
+
+div.singerTop>p{
+	height: 48px;
+	margin-top: 10px;
+	color: #999;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/*white-space: nowrap;*/
+}
+
+.singerRank>div.item{
+	width: 119px;
+    float: left;
+    border: 1px solid #dadada;
+    margin: 0 20px 20px 0;
+    position: relative;
+}
+
+div.singerRank{
+	width: 705px;
+	margin-top: 30px;
+}
+
+.singerRank .head_pic{
+	width: 119px;
+	height: 119px;
+	position: relative;
+}
+
+.singerRank .head_pic a>img{
+	width: 119px;
+	height: 119px;
+}
+
+.head_pic>.info{
+	position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 263px;
+    height: 311px;
+    background: url(../img/index/msc_sprite.png) 0 -1px no-repeat;
+    z-index: 99;
+    color: #fff;
+    display: none;
+}
+
+.singerRank>div.item:hover .head_pic>.info{
+	display: block;
+}
+
+.head_pic>.info>.head{
+	float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+.head_pic>.info>p.s_name>a{
+	color:#fff;
+}
+
+.head_pic>.info>p.s_name{
+	padding-top: 6px;
+}
+
+.head_pic>.info>p{
+    float: left;
+    width: 120px;
+    text-align: left;
+    line-height: 24px;
+    height: 24px;
+}
+
+.head_pic>.info>p.intr{
+	height: 68px;
+    line-height: 17px;
+    overflow: hidden;
+}
+
+.singerRank>.item>p{
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #666;
+}
+
+.singerRank .hotSong{
+	width: 233px;
+	padding: 4px 15px;
+}
+
+.singerRank .hotSong>h4{
+	font-size: 14px;
+	height: 28px;
+	line-height: 28px;
+	font-weight: normal;
+	margin-bottom: 4px;
+}
+
+.singerRank .hotSong>.list>li:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.singerRank .hotSong>.list>li>span{
+	float: left;
+	width: 200px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.singerRank .hotSong>.list>li a{
+	color: #fff;
+	height: 28px;
+	line-height: 28px;
+
+}
+
+.singerRank .hotSong>.list>li>i{
+	float: right;
+    width: 20px;
+    height: 20px;
+    background: url(../img/index/rec_sprite_v1.png) -94px 2px no-repeat;
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+.singerRank .hotSong>.list>li a:hover{
+	text-decoration: underline;
+}
+
+div.aside{
+	width: 50px;
+	height: 162px;
+	position: fixed;
+	right: 10px;
+	bottom: 240px;
+	z-index: 99;
+}
+
+div.aside>a{
+	display: block;
+    width: 50px;
+    height: 54px;
+    background-image: url("../img/index/side_sprite.png");
+    background-repeat: no-repeat;
+}
+
+div.aside>a.code{
+	background-position: -50px 0;
+}
+
+div.aside>a.code:hover{
+	background-position: 0 0;
+}
+
+div.aside>a.reCall{
+	background-position: -50px -54px;
+}
+
+div.aside>a.reCall:hover{
+	background-position: 0 -54px;
+}
+
+div.aside>a.toTop{
+	background-position: -50px -109px;
+	transition: height .2s;
+}
+
+div.aside>a.toTop:hover{
+	background-position: 0 -109px;
+}
+
+
+/** 广告 **/
+div.shit{
+	width:213px;
+	position:fixed;
+	height:0;
+	right:0;
+	bottom:0;
+	background:url("../img/index/shit.jpg");
+	z-index:999;
+	cursor:pointer;
+	overflow:hidden;
+	transition:all .5s linear;
+}
+
+div.shit>span{
+	width:12px;
+	height:12px;
+	position:absolute;
+	right:5px;
+	top:5px;
+	color:#fff;
+	line-height:12px;
+	text-align:center;
+	cursor:pointer;
+}
+
+div.tabList .show{
+	display:block;
+}

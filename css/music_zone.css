@@ -1,0 +1,106 @@
+﻿body{
+	margin-top: 60px;
+	background: #F6F6F6 url(../img/music_zone/uyyrbg.jpg) no-repeat center 60px;
+}
+
+div.header{
+	position: fixed;
+	top:0;
+	z-index: 1000;
+}
+
+div.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.container>.banner{
+	width: 700px;
+	margin: 60px auto 40px;
+}
+
+.container>.banner>.avt{
+	width: 188px;
+	height: 188px;
+	display: block;
+	border-radius: 50%;
+	overflow: hidden;
+	border: rgba(255,255,255,0.3) solid 6px;
+	margin-left: 5%;
+	box-shadow: 0 1px 2px #000;
+	margin-right: 30px;
+}
+
+.container>.banner>.avt>img{
+	width: 100%;
+	height: 100%;
+}
+
+.container>.banner>.info{
+	color: #fff;
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+	width: 60%;
+}
+
+.container>.banner>.info>.user_name{
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+.container>.banner>.info>.sex_id>b{
+	width: 14px;
+	height: 14px;
+	overflow: hidden;
+	margin: 1px 10px 0 0;
+	text-indent: -999px;
+	background-image: url(../img/music_zone/b_ico.png);
+	background-repeat: no-repeat;
+}
+
+.container>.banner>.info>.sex_id>b.girl{
+	display: inline-block;
+	background-position: -14px -17px;
+}
+
+.container>.banner>.info>.sex_id>b.boy{
+	background-position: 0 -17px;
+	display: inline-block;
+}
+
+.container>.banner>.info>.sex_id>b.team{
+	margin: 0;
+}
+
+.container>.banner>.info>.msg{
+	width: 100%;
+	margin-top: 80px;
+	font-size: 14px;
+}
+
+.container>.banner>.info>.msg>p{
+	float: left;
+	text-align: center;
+	margin: 0 15px;
+}
+
+.container>.banner>.info>.msg>p>span{
+	font-size: 18px;
+
+}
+
+.container>.banner>.info>.msg>.line{
+	width: 1px;
+	height: 26px;
+	background-color: #ddd;
+	float: left;
+	position: relative;
+	top: 10px;
+}
+
+.new_listen{
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px 0 60px;
+	border-top: 1px solid #fff;
+	height: 300px;
+}

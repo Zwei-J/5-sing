@@ -1,0 +1,238 @@
+div.footer{
+	width: 100%;
+	min-width: 1000px;
+}
+
+div.footer-contact{
+	height: 140px;
+	background: #efefef;
+}
+
+.footer-contact>div.conta{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 15px 0 10px;
+}
+
+.footer div.teamMate{
+	width: 399px;
+	border-right: 1px solid #ccc;
+}
+
+.teamMate a{
+	background-image: url("../img/index/bom_logo.png");
+	background-repeat: no-repeat;
+}
+
+.teamMate>p{
+	margin-bottom: 10px;
+}
+
+.teamMate>p>a{
+	width: 63px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 8px;
+	background-position: -360px 7px;
+}
+
+.teamMate>p>a:hover{
+	background-position: -360px -34px;
+}
+
+.teamMate>p>span{
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	font-size: 16px;
+	color: #666;
+}
+
+.teamMate>div{
+	padding-bottom: 10px;
+}
+
+.teamMate>div a{
+	width: 90px;
+	height: 40px;
+	margin-right: 6px;
+	float: left;
+}
+
+.teamMate>div a.mc1{
+	background-position: 0 0;
+}
+
+.teamMate>div a.mc1:hover{
+	background-position: 0 -40px;
+}
+
+.teamMate>div a.mc2{
+	background-position: -90px 0;
+}
+
+.teamMate>div a.mc2:hover{
+	background-position: -90px -40px;
+}
+
+.teamMate>div a.mc3{
+	background-position: -180px 0;
+}
+
+.teamMate>div a.mc3:hover{
+	background-position: -180px -40px;
+}
+
+.teamMate>div a.mc4{
+	background-position: -270px 0;
+}
+
+.teamMate>div a.mc4:hover{
+	background-position: -270px -40px;
+}
+
+div.topic{
+	width: 366px;
+	padding-left: 20px;
+}
+
+.conta>div>p{
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+.topic>ul>li{
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	width: 165px;
+	margin-right: 10px;
+}
+
+.topic>ul>li>a{
+	color: #999;
+}
+
+.topic>ul>li>a:hover{
+	color: #4CAFF4;
+}
+
+div.app{
+	width: 193px;
+	padding-left: 20px;
+	border-left: 1px solid #ccc;
+	height: 106px;
+	overflow: hidden;
+}
+
+.app>div.download{
+	width: 99px;
+}
+
+.app>.download>a{
+	line-height: 22px;
+	color: #999;
+}
+
+.app>.download>a:hover{
+	color: #4CAFF4;
+}
+
+.app>div.addCall{
+	width: 94px;
+	margin-top: -8px;
+}
+
+.app>.addCall>a{
+	width: 88px;
+	height: 22px;
+	border: 1px solid #d7d7d7;
+	display: block;
+	background: #fff;
+	margin-bottom: 8px;
+	line-height: 22px;
+	color: #999;
+}
+
+.app>.addCall>a>i{
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin: 0 5px 0;
+	background-image: url("../img/index/foot_sprite.png");
+	background-repeat: no-repeat;
+}
+
+.app>.addCall>a.sina>i{
+	background-position: 0 0;
+}
+
+.app>.addCall>a.wechat>i{
+	background-position: 0 -48px;
+}
+
+.app>.addCall>a.sina:hover i{
+	background-position: 0 -24px;
+}
+
+.app>.addCall>a.wechat:hover i{
+	background-position: 0 -72px;
+}
+
+div.footer-info{
+	background-color: #333;
+	min-height: 116px;
+}
+
+.footer-info>div.info{
+	width: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 15px 0 25px;
+}
+
+.info>p.info-nav{
+	height: 22px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+
+.info>p.info-nav>a{
+	color: #fff;
+	margin-right: 28px;
+}
+
+.info>p.info-nav>a:hover{
+	color: #6c0;
+}
+
+.info>p.cpr{
+	height: 22px;
+	line-height: 22px;
+	color: #999;
+}
+
+.info>p>i{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background-image: url("../img/index/wen_icon.png");
+	margin-left: 12px;
+}
+
+.info>.cpr>a{
+	color: #999;
+	margin-right: 12px;
+}
+
+.info>.cpr>a:hover{
+	color: #4CAFF4;
+}
+
+.info>.cpr>a.net{
+	margin-right: 0;
+	margin-left: 12px;
+}
